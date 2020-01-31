@@ -1,0 +1,8 @@
+"0","```r
+diamonds%>%
+  count(color,cut)%>%
+  group_by(color)%>%
+  mutate(pec=n/sum(n))%>%
+  ggplot(mapping=aes(x=color,y=cut))+
+  geom_tile(mapping = aes(fill=pec))
+```"

@@ -1,0 +1,4306 @@
+{
+  "format_version" : "1.0",
+  "generated_by" : "cytoscape-3.7.2",
+  "target_cytoscapejs_version" : "~2.1",
+  "data" : {
+    "shared_name" : "WP2261",
+    "name" : "Signaling Pathways in Glioblastoma - Homo sapiens",
+    "SUID" : 17030,
+    "__Annotations" : [ ],
+    "selected" : true
+  },
+  "elements" : {
+    "nodes" : [ {
+      "data" : {
+        "id" : "17280",
+        "SUID" : 17280,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 82.16052239879488,
+        "y" : 260.45032374146297
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17279",
+        "SUID" : 17279,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 38.11647835475088,
+        "y" : 260.45032374146297
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17277",
+        "SUID" : 17277,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 84.73015085077628,
+        "y" : 284.1752251134231
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17276",
+        "SUID" : 17276,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 38.684104804730275,
+        "y" : 284.1752251134231
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17200",
+        "shared_name" : "Inhibits",
+        "name" : "Inhibits",
+        "SUID" : 17200,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 116.65566210609586,
+        "y" : 285.8816374080707
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17199",
+        "shared_name" : "Activates",
+        "name" : "Activates",
+        "SUID" : 17199,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 119.70255641141713,
+        "y" : 259.00888230002147
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17198",
+        "shared_name" : "Small Molecule",
+        "name" : "Small Molecule",
+        "SUID" : 17198,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 134.33473081837465,
+        "y" : 231.269378089929
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17197",
+        "shared_name" : "Protein Complex",
+        "name" : "Protein Complex",
+        "SUID" : 17197,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 137.47253582696618,
+        "y" : 182.51320480434387
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17196",
+        "shared_name" : "Protein Family",
+        "name" : "Protein Family",
+        "SUID" : 17196,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 132.4705338249642,
+        "y" : 126.16091668735007
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17195",
+        "shared_name" : "P53 signaling",
+        "name" : "P53 signaling",
+        "SUID" : 17195,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 213.46421221241036,
+        "y" : 402.21104923531124
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17194",
+        "shared_name" : "INK4",
+        "name" : "INK4",
+        "SUID" : 17194,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 433.83692450914515,
+        "y" : 529.7781593149972
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17193",
+        "shared_name" : "RB signaling",
+        "name" : "RB signaling",
+        "SUID" : 17193,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 342.3397136632433,
+        "y" : 672.610323282499
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17192",
+        "shared_name" : "ERK",
+        "name" : "ERK",
+        "SUID" : 17192,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 678.2030809169393,
+        "y" : 615.8522834350031
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17191",
+        "shared_name" : "MEK",
+        "name" : "MEK",
+        "SUID" : 17191,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 649.7037836750264,
+        "y" : 478.7016341931817
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17190",
+        "shared_name" : "PKC",
+        "name" : "PKC",
+        "SUID" : 17190,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 838.7494303165307,
+        "y" : 455.7715803517791
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17189",
+        "shared_name" : "PLCG",
+        "name" : "PLCG",
+        "SUID" : 17189,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 865.7864673535685,
+        "y" : 327.9205539335069
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17188",
+        "shared_name" : "RTK/RAS signaling",
+        "name" : "RTK/RAS signaling",
+        "SUID" : 17188,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 688.0325248070565,
+        "y" : 41.08254550472158
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17187",
+        "shared_name" : "RAF",
+        "name" : "RAF",
+        "SUID" : 17187,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 684.6681367144431,
+        "y" : 345.1267916207277
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17186",
+        "shared_name" : "RAS",
+        "name" : "RAS",
+        "SUID" : 17186,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 684.6681367144431,
+        "y" : 237.12679162072772
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17185",
+        "shared_name" : "ATK",
+        "name" : "ATK",
+        "SUID" : 17185,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 287.17620063198444,
+        "y" : 297.16479065872676
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17184",
+        "shared_name" : "FOXO",
+        "name" : "FOXO",
+        "SUID" : 17184,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 436.65720111298486,
+        "y" : 297.16479065872676
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17183",
+        "shared_name" : "P13K class 1 / AKT signaling",
+        "name" : "P13K class 1 / AKT signaling",
+        "SUID" : 17183,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 372.1572011129849,
+        "y" : 76.06145264119624
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17180",
+        "shared_name" : "RTK",
+        "name" : "RTK",
+        "SUID" : 17180,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 623.1428841891907,
+        "y" : 68.3239531090284
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17179",
+        "shared_name" : "P13K class 2 signaling",
+        "name" : "P13K class 2 signaling",
+        "SUID" : 17179,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 960.8343441046313,
+        "y" : 92.28399656406931
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17178",
+        "shared_name" : "Legend",
+        "name" : "Legend",
+        "SUID" : 17178,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 48.86399057285133,
+        "y" : 59.5482451923256
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17177",
+        "shared_name" : "Protein",
+        "name" : "Protein",
+        "SUID" : 17177,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 114.65366010409389,
+        "y" : 85.14089666733003
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17176",
+        "SUID" : 17176,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 55.357484066344846,
+        "y" : 183.3432166343561
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17175",
+        "SUID" : 17175,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 305.1572011129853,
+        "y" : 140.1267916207277
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17174",
+        "SUID" : 17174,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 692.3090775450206,
+        "y" : 112.12679162072763
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17173",
+        "SUID" : 17173,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 549.3501013197008,
+        "y" : 584.883318928263
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17172",
+        "SUID" : 17172,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 241.14691607294435,
+        "y" : 675.2970839820493
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17171",
+        "SUID" : 17171,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 887.0169200284653,
+        "y" : 363.5729098130803
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17170",
+        "SUID" : 17170,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 451.6232214579868,
+        "y" : 574.1515655527562
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17169",
+        "SUID" : 17169,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 701.7010935601459,
+        "y" : 532.2767348529335
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17168",
+        "SUID" : 17168,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 887.0169200284652,
+        "y" : 509.33536636000855
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17167",
+        "SUID" : 17167,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 354.3889950102772,
+        "y" : 585.2549697493517
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17166",
+        "SUID" : 17166,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 960.1676774379641,
+        "y" : 195.71413022142036
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17165",
+        "SUID" : 17165,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 305.0656636373992,
+        "y" : 340.12679162072754
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17164",
+        "SUID" : 17164,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 364.12966742444655,
+        "y" : 449.3470871494671
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17163",
+        "SUID" : 17163,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 532.4356674389733,
+        "y" : 482.7744165946408
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17162",
+        "SUID" : 17162,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 703.0393396306032,
+        "y" : 650.052672544178
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17161",
+        "SUID" : 17161,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 702.6681367144433,
+        "y" : 388.12679162072754
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17160",
+        "SUID" : 17160,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 165.110618432291,
+        "y" : 675.3896429657154
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17159",
+        "SUID" : 17159,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 702.6681367144433,
+        "y" : 280.12679162072754
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17158",
+        "SUID" : 17158,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 57.377504086365015,
+        "y" : 126.17192769836088
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17157",
+        "SUID" : 17157,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 452.157201112985,
+        "y" : 340.12679162072754
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17144",
+        "GraphID" : "c33e7",
+        "IsGPMLShape" : true,
+        "shared_name" : "",
+        "name" : "",
+        "SUID" : 17144,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 99.66003661889738,
+        "y" : 174.82940870878323
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17139",
+        "FillColor" : "#ffffff",
+        "Shape" : "None",
+        "BorderThickness" : 0.0,
+        "Color" : "#14961e",
+        "GraphID" : "c6738",
+        "LabelSize" : 14.0,
+        "shared_name" : "Cell Survival",
+        "LabelFont" : "Arial Bold",
+        "Type" : "Pathway",
+        "Transparent" : "true",
+        "XrefId" : "",
+        "name" : "Cell Survival",
+        "SUID" : 17139,
+        "Height" : 20.0,
+        "Width" : 106.27224052962785,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 92.85652759092548,
+        "y" : 321.16126011612465
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17138",
+        "FillColor" : "#ffffff",
+        "Shape" : "None",
+        "BorderThickness" : 0.0,
+        "Color" : "#14961e",
+        "GraphID" : "e70cd",
+        "LabelSize" : 14.0,
+        "shared_name" : "DNA Repair",
+        "LabelFont" : "Arial Bold",
+        "Type" : "Pathway",
+        "Transparent" : "true",
+        "XrefId" : "",
+        "name" : "DNA Repair",
+        "SUID" : 17138,
+        "Height" : 20.0,
+        "Width" : 106.27224052962785,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 203.38544226219307,
+        "y" : 764.9093600075461
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17137",
+        "FillColor" : "#ffffff",
+        "Shape" : "None",
+        "BorderThickness" : 0.0,
+        "Color" : "#14961e",
+        "GraphID" : "b49eb",
+        "LabelSize" : 14.0,
+        "shared_name" : "G2/M Arrest",
+        "LabelFont" : "Arial Bold",
+        "Type" : "Pathway",
+        "Transparent" : "true",
+        "XrefId" : "",
+        "name" : "G2/M Arrest",
+        "SUID" : 17137,
+        "Height" : 20.0,
+        "Width" : 106.29038934995452,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 103.52319425759222,
+        "y" : 477.2416903278997
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17136",
+        "FillColor" : "#ffffff",
+        "Shape" : "None",
+        "BorderThickness" : 0.0,
+        "Color" : "#14961e",
+        "GraphID" : "a4f6c",
+        "LabelSize" : 14.0,
+        "shared_name" : "Apoptosis",
+        "XrefDatasource" : "WikiPathways",
+        "LabelFont" : "Arial Bold",
+        "Type" : "Pathway",
+        "Transparent" : "true",
+        "XrefId" : "WP254",
+        "name" : "Apoptosis",
+        "SUID" : 17136,
+        "Height" : 20.0,
+        "Width" : 92.43661629960624,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 103.52319425759208,
+        "y" : 528.1263714229774
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17135",
+        "FillColor" : "#ffffff",
+        "Shape" : "RoundedRectangle",
+        "BorderThickness" : 1.0,
+        "Color" : "#000000",
+        "GraphID" : "b37d9",
+        "LabelSize" : 10.0,
+        "shared_name" : "MSH6",
+        "XrefDatasource" : "Ensembl",
+        "LabelFont" : "Arial",
+        "Type" : "GeneProduct",
+        "Transparent" : "false",
+        "XrefId" : "ENSG00000116062",
+        "name" : "MSH6",
+        "SUID" : 17135,
+        "Height" : 20.0,
+        "Ensembl" : "ENSG00000116062",
+        "Width" : 52.96456352636124,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 165.110618432291,
+        "y" : 685.3896429657154
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17134",
+        "FillColor" : "#ffffff",
+        "Shape" : "RoundedRectangle",
+        "BorderThickness" : 1.0,
+        "Color" : "#000000",
+        "GraphID" : "c6965",
+        "LabelSize" : 10.0,
+        "shared_name" : "BRCA1",
+        "XrefDatasource" : "Ensembl",
+        "LabelFont" : "Arial",
+        "Type" : "GeneProduct",
+        "Transparent" : "false",
+        "XrefId" : "ENSG00000012048",
+        "name" : "BRCA1",
+        "SUID" : 17134,
+        "Height" : 20.0,
+        "Ensembl" : "ENSG00000012048",
+        "Width" : 52.96456352636124,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 165.110618432291,
+        "y" : 665.3896429657154
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17133",
+        "FillColor" : "#ffffff",
+        "Shape" : "RoundedRectangle",
+        "BorderThickness" : 1.0,
+        "Color" : "#000000",
+        "GraphID" : "ad016",
+        "LabelSize" : 10.0,
+        "shared_name" : "BRCA2",
+        "XrefDatasource" : "Ensembl",
+        "LabelFont" : "Arial",
+        "Type" : "GeneProduct",
+        "Transparent" : "false",
+        "XrefId" : "ENSG00000139618",
+        "name" : "BRCA2",
+        "SUID" : 17133,
+        "Height" : 20.0,
+        "Ensembl" : "ENSG00000139618",
+        "Width" : 52.96456352636124,
+        "selected" : true
+      },
+      "position" : {
+        "x" : 241.14691607294435,
+        "y" : 685.2970839820493
+      },
+      "selected" : true
+    }, {
+      "data" : {
+        "id" : "17132",
+        "FillColor" : "#ffffff",
+        "Shape" : "RoundedRectangle",
+        "BorderThickness" : 1.0,
+        "Color" : "#000000",
+        "GraphID" : "dac06",
+        "LabelSize" : 10.0,
+        "shared_name" : "BRCA1",
+        "XrefDatasource" : "Ensembl",
+        "LabelFont" : "Arial",
+        "Type" : "GeneProduct",
+        "Transparent" : "false",
+        "XrefId" : "ENSG00000012048",
+        "name" : "BRCA1",
+        "SUID" : 17132,
+        "Height" : 20.0,
+        "Ensembl" : "ENSG00000012048",
+        "Width" : 52.96456352636124,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 241.14691607294435,
+        "y" : 665.2970839820493
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17131",
+        "FillColor" : "#ffffff",
+        "Shape" : "RoundedRectangle",
+        "BorderThickness" : 1.0,
+        "Color" : "#000000",
+        "GraphID" : "f44cb",
+        "LabelSize" : 10.0,
+        "shared_name" : "ATM",
+        "XrefDatasource" : "Ensembl",
+        "LabelFont" : "Arial",
+        "Type" : "GeneProduct",
+        "Transparent" : "false",
+        "XrefId" : "ENSG00000149311",
+        "name" : "ATM",
+        "SUID" : 17131,
+        "Height" : 20.0,
+        "Ensembl" : "ENSG00000149311",
+        "Width" : 52.96456352636124,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 241.10812294897033,
+        "y" : 594.0296270363125
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17130",
+        "FillColor" : "#ffffff",
+        "Shape" : "RoundedRectangle",
+        "BorderThickness" : 1.0,
+        "Color" : "#000000",
+        "GraphID" : "af591",
+        "LabelSize" : 10.0,
+        "shared_name" : "EP300",
+        "XrefDatasource" : "Ensembl",
+        "LabelFont" : "Arial",
+        "Type" : "GeneProduct",
+        "Transparent" : "false",
+        "XrefId" : "ENSG00000100393",
+        "name" : "EP300",
+        "SUID" : 17130,
+        "Height" : 20.0,
+        "Ensembl" : "ENSG00000100393",
+        "Width" : 58.45097474310942,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 198.0187715696177,
+        "y" : 562.6522528551078
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17129",
+        "FillColor" : "#ffffff",
+        "Shape" : "RoundedRectangle",
+        "BorderThickness" : 1.0,
+        "Color" : "#000000",
+        "GraphID" : "e0682",
+        "LabelSize" : 10.0,
+        "shared_name" : "TP53",
+        "XrefDatasource" : "Ensembl",
+        "LabelFont" : "Arial",
+        "Type" : "GeneProduct",
+        "Transparent" : "false",
+        "XrefId" : "ENSG00000141510",
+        "name" : "TP53",
+        "SUID" : 17129,
+        "Height" : 20.0,
+        "Ensembl" : "ENSG00000141510",
+        "Width" : 52.96456352636124,
+        "selected" : true
+      },
+      "position" : {
+        "x" : 241.80416814058935,
+        "y" : 505.8502213192617
+      },
+      "selected" : true
+    }, {
+      "data" : {
+        "id" : "17128",
+        "FillColor" : "#ffffff",
+        "Shape" : "RoundedRectangle",
+        "BorderThickness" : 1.0,
+        "Color" : "#000000",
+        "GraphID" : "c6123",
+        "LabelSize" : 10.0,
+        "shared_name" : "MDM4",
+        "XrefDatasource" : "Ensembl",
+        "LabelFont" : "Arial",
+        "Type" : "GeneProduct",
+        "Transparent" : "false",
+        "XrefId" : "ENSG00000198625",
+        "name" : "MDM4",
+        "SUID" : 17128,
+        "Height" : 20.0,
+        "Ensembl" : "ENSG00000198625",
+        "Width" : 52.96456352636124,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 202.72353201063007,
+        "y" : 463.3614311918855
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17127",
+        "FillColor" : "#ffffff",
+        "Shape" : "RoundedRectangle",
+        "BorderThickness" : 1.0,
+        "Color" : "#000000",
+        "GraphID" : "d3645",
+        "LabelSize" : 10.0,
+        "shared_name" : "MDM2",
+        "XrefDatasource" : "Ensembl",
+        "LabelFont" : "Arial",
+        "Type" : "GeneProduct",
+        "Transparent" : "false",
+        "XrefId" : "ENSG00000135679",
+        "name" : "MDM2",
+        "SUID" : 17127,
+        "Height" : 20.0,
+        "Ensembl" : "ENSG00000135679",
+        "Width" : 52.96456352636124,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 264.14486008843926,
+        "y" : 463.20671951818576
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17126",
+        "FillColor" : "#ffffff",
+        "Shape" : "RoundedRectangle",
+        "BorderThickness" : 1.0,
+        "Color" : "#000000",
+        "GraphID" : "ed317",
+        "LabelSize" : 10.0,
+        "shared_name" : "ARF",
+        "XrefDatasource" : "Ensembl",
+        "LabelFont" : "Arial",
+        "Type" : "GeneProduct",
+        "Transparent" : "false",
+        "XrefId" : "ENSG00000147889",
+        "name" : "ARF",
+        "SUID" : 17126,
+        "Height" : 20.0,
+        "Ensembl" : "ENSG00000147889",
+        "Width" : 52.96456352636124,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 251.06627855067015,
+        "y" : 421.01884337570596
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17125",
+        "FillColor" : "#ffffff",
+        "Shape" : "None",
+        "BorderThickness" : 0.0,
+        "Color" : "#14961e",
+        "GraphID" : "f1994",
+        "LabelSize" : 14.0,
+        "shared_name" : "G1/S Progression",
+        "LabelFont" : "Arial Bold",
+        "Type" : "Pathway",
+        "Transparent" : "true",
+        "XrefId" : "",
+        "name" : "G1/S Progression",
+        "SUID" : 17125,
+        "Height" : 20.0,
+        "Width" : 166.2043787408312,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 451.3671539224574,
+        "y" : 764.9093600075461
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17124",
+        "FillColor" : "#ffffff",
+        "Shape" : "RoundedRectangle",
+        "BorderThickness" : 1.0,
+        "Color" : "#000000",
+        "GraphID" : "f79fa",
+        "LabelSize" : 10.0,
+        "shared_name" : "E2F1",
+        "XrefDatasource" : "Ensembl",
+        "LabelFont" : "Arial",
+        "Type" : "GeneProduct",
+        "Transparent" : "false",
+        "XrefId" : "ENSG00000101412",
+        "name" : "E2F1",
+        "SUID" : 17124,
+        "Height" : 20.0,
+        "Ensembl" : "ENSG00000101412",
+        "Width" : 46.3025210084033,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 451.2065547913203,
+        "y" : 708.6947556800496
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17123",
+        "FillColor" : "#ffffff",
+        "Shape" : "RoundedRectangle",
+        "BorderThickness" : 1.0,
+        "Color" : "#000000",
+        "GraphID" : "b689d",
+        "LabelSize" : 10.0,
+        "shared_name" : "CDK6",
+        "XrefDatasource" : "Ensembl",
+        "LabelFont" : "Arial",
+        "Type" : "GeneProduct",
+        "Transparent" : "false",
+        "XrefId" : "ENSG00000105810",
+        "name" : "CDK6",
+        "SUID" : 17123,
+        "Height" : 20.0,
+        "Ensembl" : "ENSG00000105810",
+        "Width" : 53.82886776145189,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 549.3501013197009,
+        "y" : 604.883318928263
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17122",
+        "FillColor" : "#ffffff",
+        "Shape" : "RoundedRectangle",
+        "BorderThickness" : 1.0,
+        "Color" : "#000000",
+        "GraphID" : "a2084",
+        "LabelSize" : 10.0,
+        "shared_name" : "CDK4",
+        "XrefDatasource" : "Ensembl",
+        "LabelFont" : "Arial",
+        "Type" : "GeneProduct",
+        "Transparent" : "false",
+        "XrefId" : "ENSG00000135446",
+        "name" : "CDK4",
+        "SUID" : 17122,
+        "Height" : 20.0,
+        "Ensembl" : "ENSG00000135446",
+        "Width" : 53.82886776145189,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 354.3889950102772,
+        "y" : 605.2549697493517
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17121",
+        "FillColor" : "#ffffff",
+        "Shape" : "RoundedRectangle",
+        "BorderThickness" : 1.0,
+        "Color" : "#000000",
+        "GraphID" : "fee18",
+        "LabelSize" : 10.0,
+        "shared_name" : "CCND2",
+        "XrefDatasource" : "Ensembl",
+        "LabelFont" : "Arial",
+        "Type" : "GeneProduct",
+        "Transparent" : "false",
+        "XrefId" : "ENSG00000118971",
+        "name" : "CCND2",
+        "SUID" : 17121,
+        "Height" : 20.0,
+        "Ensembl" : "ENSG00000118971",
+        "Width" : 53.82886776145189,
+        "selected" : true
+      },
+      "position" : {
+        "x" : 354.3889950102772,
+        "y" : 585.2549697493517
+      },
+      "selected" : true
+    }, {
+      "data" : {
+        "id" : "17120",
+        "FillColor" : "#ffffff",
+        "Shape" : "RoundedRectangle",
+        "BorderThickness" : 1.0,
+        "Color" : "#000000",
+        "GraphID" : "aeb09",
+        "LabelSize" : 10.0,
+        "shared_name" : "CCND2",
+        "XrefDatasource" : "Ensembl",
+        "LabelFont" : "Arial",
+        "Type" : "GeneProduct",
+        "Transparent" : "false",
+        "XrefId" : "ENSG00000118971",
+        "name" : "CCND2",
+        "SUID" : 17120,
+        "Height" : 20.0,
+        "Ensembl" : "ENSG00000118971",
+        "Width" : 53.82886776145189,
+        "selected" : true
+      },
+      "position" : {
+        "x" : 549.3501013197008,
+        "y" : 584.883318928263
+      },
+      "selected" : true
+    }, {
+      "data" : {
+        "id" : "17119",
+        "FillColor" : "#ffffff",
+        "Shape" : "RoundedRectangle",
+        "BorderThickness" : 1.0,
+        "Color" : "#000000",
+        "GraphID" : "a5cd4",
+        "LabelSize" : 10.0,
+        "shared_name" : "CCND1",
+        "XrefDatasource" : "Ensembl",
+        "LabelFont" : "Arial",
+        "Type" : "GeneProduct",
+        "Transparent" : "false",
+        "XrefId" : "ENSG00000110092",
+        "name" : "CCND1",
+        "SUID" : 17119,
+        "Height" : 20.0,
+        "Ensembl" : "ENSG00000110092",
+        "Width" : 53.82886776145189,
+        "selected" : true
+      },
+      "position" : {
+        "x" : 549.3501013197008,
+        "y" : 564.883318928263
+      },
+      "selected" : true
+    }, {
+      "data" : {
+        "id" : "17118",
+        "FillColor" : "#ffffff",
+        "Shape" : "RoundedRectangle",
+        "BorderThickness" : 1.0,
+        "Color" : "#000000",
+        "GraphID" : "de87b",
+        "LabelSize" : 10.0,
+        "shared_name" : "CDKN2B",
+        "XrefDatasource" : "Ensembl",
+        "LabelFont" : "Arial",
+        "Type" : "GeneProduct",
+        "Transparent" : "false",
+        "XrefId" : "ENSG00000147883",
+        "name" : "CDKN2B",
+        "SUID" : 17118,
+        "Height" : 20.0,
+        "Ensembl" : "ENSG00000147883",
+        "Width" : 52.96456352636124,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 451.6232214579868,
+        "y" : 574.1515655527562
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17117",
+        "FillColor" : "#ffffff",
+        "Shape" : "RoundedRectangle",
+        "BorderThickness" : 1.0,
+        "Color" : "#000000",
+        "GraphID" : "fe5e2",
+        "LabelSize" : 10.0,
+        "shared_name" : "CDKN2C",
+        "XrefDatasource" : "Ensembl",
+        "LabelFont" : "Arial",
+        "Type" : "GeneProduct",
+        "Transparent" : "false",
+        "XrefId" : "ENSG00000123080",
+        "name" : "CDKN2C",
+        "SUID" : 17117,
+        "Height" : 20.0,
+        "Ensembl" : "ENSG00000123080",
+        "Width" : 52.96456352636124,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 451.6232214579868,
+        "y" : 594.1515655527562
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17116",
+        "FillColor" : "#ffffff",
+        "Shape" : "RoundedRectangle",
+        "BorderThickness" : 1.0,
+        "Color" : "#000000",
+        "GraphID" : "f274a",
+        "LabelSize" : 10.0,
+        "shared_name" : "TSC2",
+        "XrefDatasource" : "Ensembl",
+        "LabelFont" : "Arial",
+        "Type" : "GeneProduct",
+        "Transparent" : "false",
+        "XrefId" : "ENSG00000103197",
+        "name" : "TSC2",
+        "SUID" : 17116,
+        "Height" : 20.0,
+        "Ensembl" : "ENSG00000103197",
+        "Width" : 47.77873811581678,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 364.1296674244465,
+        "y" : 459.3470871494671
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17115",
+        "FillColor" : "#ffffff",
+        "Shape" : "RoundedRectangle",
+        "BorderThickness" : 1.0,
+        "Color" : "#000000",
+        "GraphID" : "d331d",
+        "LabelSize" : 10.0,
+        "shared_name" : "CDKN1A",
+        "XrefDatasource" : "Ensembl",
+        "LabelFont" : "Arial",
+        "Type" : "GeneProduct",
+        "Transparent" : "false",
+        "XrefId" : "ENSG00000124762",
+        "name" : "CDKN1A",
+        "SUID" : 17115,
+        "Height" : 20.0,
+        "Ensembl" : "ENSG00000124762",
+        "Width" : 60.74330164217808,
+        "selected" : true
+      },
+      "position" : {
+        "x" : 451.62322145798686,
+        "y" : 459.5592048401036
+      },
+      "selected" : true
+    }, {
+      "data" : {
+        "id" : "17114",
+        "FillColor" : "#ffffff",
+        "Shape" : "RoundedRectangle",
+        "BorderThickness" : 1.0,
+        "Color" : "#000000",
+        "GraphID" : "cee67",
+        "LabelSize" : 10.0,
+        "shared_name" : "CDK2",
+        "XrefDatasource" : "Ensembl",
+        "LabelFont" : "Arial",
+        "Type" : "GeneProduct",
+        "Transparent" : "false",
+        "XrefId" : "ENSG00000123374",
+        "name" : "CDK2",
+        "SUID" : 17114,
+        "Height" : 20.0,
+        "Ensembl" : "ENSG00000123374",
+        "Width" : 60.74330164217808,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 532.4356674389733,
+        "y" : 492.77441659464074
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17113",
+        "FillColor" : "#ffffff",
+        "Shape" : "RoundedRectangle",
+        "BorderThickness" : 1.0,
+        "Color" : "#000000",
+        "GraphID" : "d3436",
+        "LabelSize" : 10.0,
+        "shared_name" : "CDKN1B",
+        "XrefDatasource" : "Ensembl",
+        "LabelFont" : "Arial",
+        "Type" : "GeneProduct",
+        "Transparent" : "false",
+        "XrefId" : "ENSG00000111276",
+        "name" : "CDKN1B",
+        "SUID" : 17113,
+        "Height" : 20.0,
+        "Ensembl" : "ENSG00000111276",
+        "Width" : 60.74330164217808,
+        "selected" : true
+      },
+      "position" : {
+        "x" : 511.42726407762797,
+        "y" : 415.8513396715644
+      },
+      "selected" : true
+    }, {
+      "data" : {
+        "id" : "17112",
+        "FillColor" : "#ffffff",
+        "Shape" : "None",
+        "BorderThickness" : 0.0,
+        "Color" : "#14961e",
+        "GraphID" : "d3f2b",
+        "LabelSize" : 14.0,
+        "shared_name" : "Cell Cycle Progression",
+        "LabelFont" : "Arial Bold",
+        "Type" : "Pathway",
+        "Transparent" : "true",
+        "XrefId" : "",
+        "name" : "Cell Cycle Progression",
+        "SUID" : 17112,
+        "Height" : 20.0,
+        "Width" : 196.8408262454435,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 702.3086269744836,
+        "y" : 764.9093600075462
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17111",
+        "FillColor" : "#ffffff",
+        "Shape" : "RoundedRectangle",
+        "BorderThickness" : 1.0,
+        "Color" : "#000000",
+        "GraphID" : "dee7e",
+        "LabelSize" : 10.0,
+        "shared_name" : "MAPK3",
+        "XrefDatasource" : "Ensembl",
+        "LabelFont" : "Arial",
+        "Type" : "GeneProduct",
+        "Transparent" : "false",
+        "XrefId" : "ENSG00000102882",
+        "name" : "MAPK3",
+        "SUID" : 17111,
+        "Height" : 20.0,
+        "Ensembl" : "ENSG00000102882",
+        "Width" : 64.0,
+        "selected" : true
+      },
+      "position" : {
+        "x" : 703.0393396306032,
+        "y" : 660.052672544178
+      },
+      "selected" : true
+    }, {
+      "data" : {
+        "id" : "17110",
+        "FillColor" : "#ffffff",
+        "Shape" : "RoundedRectangle",
+        "BorderThickness" : 1.0,
+        "Color" : "#000000",
+        "GraphID" : "f9e38",
+        "LabelSize" : 10.0,
+        "shared_name" : "MAPK1",
+        "XrefDatasource" : "Ensembl",
+        "LabelFont" : "Arial",
+        "Type" : "GeneProduct",
+        "Transparent" : "false",
+        "XrefId" : "ENSG00000100030",
+        "name" : "MAPK1",
+        "SUID" : 17110,
+        "Height" : 20.0,
+        "Ensembl" : "ENSG00000100030",
+        "Width" : 64.0,
+        "selected" : true
+      },
+      "position" : {
+        "x" : 703.0393396306032,
+        "y" : 640.052672544178
+      },
+      "selected" : true
+    }, {
+      "data" : {
+        "id" : "17109",
+        "FillColor" : "#ffffff",
+        "Shape" : "RoundedRectangle",
+        "BorderThickness" : 1.0,
+        "Color" : "#000000",
+        "GraphID" : "ec0cd",
+        "LabelSize" : 10.0,
+        "shared_name" : "MAP2K7",
+        "XrefDatasource" : "Ensembl",
+        "LabelFont" : "Arial",
+        "Type" : "GeneProduct",
+        "Transparent" : "false",
+        "XrefId" : "ENSG00000076984",
+        "name" : "MAP2K7",
+        "SUID" : 17109,
+        "Height" : 20.0,
+        "Ensembl" : "ENSG00000076984",
+        "Width" : 64.0,
+        "selected" : true
+      },
+      "position" : {
+        "x" : 734.1681367144433,
+        "y" : 552.1267916207272
+      },
+      "selected" : true
+    }, {
+      "data" : {
+        "id" : "17108",
+        "FillColor" : "#ffffff",
+        "Shape" : "RoundedRectangle",
+        "BorderThickness" : 1.0,
+        "Color" : "#000000",
+        "GraphID" : "c8ebd",
+        "LabelSize" : 10.0,
+        "shared_name" : "MAP2K6",
+        "XrefDatasource" : "Ensembl",
+        "LabelFont" : "Arial",
+        "Type" : "GeneProduct",
+        "Transparent" : "false",
+        "XrefId" : "ENSG00000108984",
+        "name" : "MAP2K6",
+        "SUID" : 17108,
+        "Height" : 20.0,
+        "Ensembl" : "ENSG00000108984",
+        "Width" : 64.0,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 734.1681367144433,
+        "y" : 532.1267916207272
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17107",
+        "FillColor" : "#ffffff",
+        "Shape" : "RoundedRectangle",
+        "BorderThickness" : 1.0,
+        "Color" : "#000000",
+        "GraphID" : "d3b5b",
+        "LabelSize" : 10.0,
+        "shared_name" : "MAP2K5",
+        "XrefDatasource" : "Ensembl",
+        "LabelFont" : "Arial",
+        "Type" : "GeneProduct",
+        "Transparent" : "false",
+        "XrefId" : "ENSG00000137764",
+        "name" : "MAP2K5",
+        "SUID" : 17107,
+        "Height" : 20.0,
+        "Ensembl" : "ENSG00000137764",
+        "Width" : 64.0,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 735.1681367144433,
+        "y" : 512.1267916207272
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17106",
+        "FillColor" : "#ffffff",
+        "Shape" : "RoundedRectangle",
+        "BorderThickness" : 1.0,
+        "Color" : "#000000",
+        "GraphID" : "c3837",
+        "LabelSize" : 10.0,
+        "shared_name" : "MAP2K4",
+        "XrefDatasource" : "Ensembl",
+        "LabelFont" : "Arial",
+        "Type" : "GeneProduct",
+        "Transparent" : "false",
+        "XrefId" : "ENSG00000065559",
+        "name" : "MAP2K4",
+        "SUID" : 17106,
+        "Height" : 20.0,
+        "Ensembl" : "ENSG00000065559",
+        "Width" : 64.0,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 671.1681367144433,
+        "y" : 563.1267916207273
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17105",
+        "FillColor" : "#ffffff",
+        "Shape" : "RoundedRectangle",
+        "BorderThickness" : 1.0,
+        "Color" : "#000000",
+        "GraphID" : "a66d9",
+        "LabelSize" : 10.0,
+        "shared_name" : "MAP2K3",
+        "XrefDatasource" : "Ensembl",
+        "LabelFont" : "Arial",
+        "Type" : "GeneProduct",
+        "Transparent" : "false",
+        "XrefId" : "ENSG00000034152",
+        "name" : "MAP2K3",
+        "SUID" : 17105,
+        "Height" : 20.0,
+        "Ensembl" : "ENSG00000034152",
+        "Width" : 64.0,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 671.1681367144433,
+        "y" : 543.1267916207272
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17104",
+        "FillColor" : "#ffffff",
+        "Shape" : "RoundedRectangle",
+        "BorderThickness" : 1.0,
+        "Color" : "#000000",
+        "GraphID" : "c5a3f",
+        "LabelSize" : 10.0,
+        "shared_name" : "MAP2K2",
+        "XrefDatasource" : "Ensembl",
+        "LabelFont" : "Arial",
+        "Type" : "GeneProduct",
+        "Transparent" : "false",
+        "XrefId" : "ENSG00000126934",
+        "name" : "MAP2K2",
+        "SUID" : 17104,
+        "Height" : 20.0,
+        "Ensembl" : "ENSG00000126934",
+        "Width" : 64.0,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 671.1681367144433,
+        "y" : 523.1267916207272
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17103",
+        "FillColor" : "#ffffff",
+        "Shape" : "RoundedRectangle",
+        "BorderThickness" : 1.0,
+        "Color" : "#000000",
+        "GraphID" : "cc6f5",
+        "LabelSize" : 10.0,
+        "shared_name" : "PLCG2",
+        "XrefDatasource" : "Ensembl",
+        "LabelFont" : "Arial",
+        "Type" : "GeneProduct",
+        "Transparent" : "false",
+        "XrefId" : "ENSG00000197943",
+        "name" : "PLCG2",
+        "SUID" : 17103,
+        "Height" : 20.0,
+        "Ensembl" : "ENSG00000197943",
+        "Width" : 52.0,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 887.0169200284653,
+        "y" : 373.5729098130803
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17102",
+        "FillColor" : "#ffffff",
+        "Shape" : "RoundedRectangle",
+        "BorderThickness" : 1.0,
+        "Color" : "#000000",
+        "GraphID" : "ed4e3",
+        "LabelSize" : 10.0,
+        "shared_name" : "PRKCA",
+        "XrefDatasource" : "Ensembl",
+        "LabelFont" : "Arial",
+        "Type" : "GeneProduct",
+        "Transparent" : "false",
+        "XrefId" : "ENSG00000154229",
+        "name" : "PRKCA",
+        "SUID" : 17102,
+        "Height" : 20.0,
+        "Ensembl" : "ENSG00000154229",
+        "Width" : 58.0,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 858.0169200284652,
+        "y" : 479.33536636000974
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17101",
+        "FillColor" : "#ffffff",
+        "Shape" : "RoundedRectangle",
+        "BorderThickness" : 1.0,
+        "Color" : "#000000",
+        "GraphID" : "fa3d4",
+        "LabelSize" : 10.0,
+        "shared_name" : "PRKCB",
+        "XrefDatasource" : "Ensembl",
+        "LabelFont" : "Arial",
+        "Type" : "GeneProduct",
+        "Transparent" : "false",
+        "XrefId" : "ENSG00000166501",
+        "name" : "PRKCB",
+        "SUID" : 17101,
+        "Height" : 20.0,
+        "Ensembl" : "ENSG00000166501",
+        "Width" : 58.0,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 858.0169200284652,
+        "y" : 499.3353663600098
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17100",
+        "FillColor" : "#ffffff",
+        "Shape" : "RoundedRectangle",
+        "BorderThickness" : 1.0,
+        "Color" : "#000000",
+        "GraphID" : "a9559",
+        "LabelSize" : 10.0,
+        "shared_name" : "PRKCI",
+        "XrefDatasource" : "Ensembl",
+        "LabelFont" : "Arial",
+        "Type" : "GeneProduct",
+        "Transparent" : "false",
+        "XrefId" : "ENSG00000163558",
+        "name" : "PRKCI",
+        "SUID" : 17100,
+        "Height" : 20.0,
+        "Ensembl" : "ENSG00000163558",
+        "Width" : 58.0,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 858.0169200284652,
+        "y" : 519.335366360009
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17099",
+        "FillColor" : "#ffffff",
+        "Shape" : "RoundedRectangle",
+        "BorderThickness" : 1.0,
+        "Color" : "#000000",
+        "GraphID" : "fd5d3",
+        "LabelSize" : 10.0,
+        "shared_name" : "PRKCD",
+        "XrefDatasource" : "Ensembl",
+        "LabelFont" : "Arial",
+        "Type" : "GeneProduct",
+        "Transparent" : "false",
+        "XrefId" : "ENSG00000163932",
+        "name" : "PRKCD",
+        "SUID" : 17099,
+        "Height" : 20.0,
+        "Ensembl" : "ENSG00000163932",
+        "Width" : 58.0,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 858.0169200284652,
+        "y" : 539.3353663600074
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17098",
+        "FillColor" : "#ffffff",
+        "Shape" : "RoundedRectangle",
+        "BorderThickness" : 1.0,
+        "Color" : "#000000",
+        "GraphID" : "c13e2",
+        "LabelSize" : 10.0,
+        "shared_name" : "PRKCG",
+        "XrefDatasource" : "Ensembl",
+        "LabelFont" : "Arial",
+        "Type" : "GeneProduct",
+        "Transparent" : "false",
+        "XrefId" : "ENSG00000126583",
+        "name" : "PRKCG",
+        "SUID" : 17098,
+        "Height" : 20.0,
+        "Ensembl" : "ENSG00000126583",
+        "Width" : 58.0,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 916.0169200284652,
+        "y" : 479.33536636000974
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17097",
+        "FillColor" : "#ffffff",
+        "Shape" : "RoundedRectangle",
+        "BorderThickness" : 1.0,
+        "Color" : "#000000",
+        "GraphID" : "be609",
+        "LabelSize" : 10.0,
+        "shared_name" : "PRKCH",
+        "XrefDatasource" : "Ensembl",
+        "LabelFont" : "Arial",
+        "Type" : "GeneProduct",
+        "Transparent" : "false",
+        "XrefId" : "ENSG00000027075",
+        "name" : "PRKCH",
+        "SUID" : 17097,
+        "Height" : 20.0,
+        "Ensembl" : "ENSG00000027075",
+        "Width" : 58.0,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 916.0169200284652,
+        "y" : 499.3353663600098
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17096",
+        "FillColor" : "#ffffff",
+        "Shape" : "RoundedRectangle",
+        "BorderThickness" : 1.0,
+        "Color" : "#000000",
+        "GraphID" : "e5bca",
+        "LabelSize" : 10.0,
+        "shared_name" : "PRKCQ",
+        "XrefDatasource" : "Ensembl",
+        "LabelFont" : "Arial",
+        "Type" : "GeneProduct",
+        "Transparent" : "false",
+        "XrefId" : "ENSG00000065675",
+        "name" : "PRKCQ",
+        "SUID" : 17096,
+        "Height" : 20.0,
+        "Ensembl" : "ENSG00000065675",
+        "Width" : 58.0,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 916.0169200284652,
+        "y" : 519.335366360009
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17095",
+        "FillColor" : "#ffffff",
+        "Shape" : "RoundedRectangle",
+        "BorderThickness" : 1.0,
+        "Color" : "#000000",
+        "GraphID" : "c5a4e",
+        "LabelSize" : 10.0,
+        "shared_name" : "PRKCZ",
+        "XrefDatasource" : "Ensembl",
+        "LabelFont" : "Arial",
+        "Type" : "GeneProduct",
+        "Transparent" : "false",
+        "XrefId" : "ENSG00000067606",
+        "name" : "PRKCZ",
+        "SUID" : 17095,
+        "Height" : 20.0,
+        "Ensembl" : "ENSG00000067606",
+        "Width" : 58.0,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 916.0169200284652,
+        "y" : 539.3353663600074
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17094",
+        "FillColor" : "#ffffff",
+        "Shape" : "RoundedRectangle",
+        "BorderThickness" : 1.0,
+        "Color" : "#000000",
+        "GraphID" : "f17aa",
+        "LabelSize" : 10.0,
+        "shared_name" : "PLCG1",
+        "XrefDatasource" : "Ensembl",
+        "LabelFont" : "Arial",
+        "Type" : "GeneProduct",
+        "Transparent" : "false",
+        "XrefId" : "ENSG00000124181",
+        "name" : "PLCG1",
+        "SUID" : 17094,
+        "Height" : 20.0,
+        "Ensembl" : "ENSG00000124181",
+        "Width" : 52.0,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 887.0169200284653,
+        "y" : 353.5729098130803
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17093",
+        "FillColor" : "#ffffff",
+        "Shape" : "RoundedRectangle",
+        "BorderThickness" : 1.0,
+        "Color" : "#000000",
+        "GraphID" : "b0edd",
+        "LabelSize" : 10.0,
+        "shared_name" : "RAF1",
+        "XrefDatasource" : "Ensembl",
+        "LabelFont" : "Arial",
+        "Type" : "GeneProduct",
+        "Transparent" : "false",
+        "XrefId" : "ENSG00000132155",
+        "name" : "RAF1",
+        "SUID" : 17093,
+        "Height" : 20.0,
+        "Ensembl" : "ENSG00000132155",
+        "Width" : 46.0,
+        "selected" : true
+      },
+      "position" : {
+        "x" : 702.6681367144433,
+        "y" : 408.12679162072754
+      },
+      "selected" : true
+    }, {
+      "data" : {
+        "id" : "17092",
+        "FillColor" : "#ffffff",
+        "Shape" : "RoundedRectangle",
+        "BorderThickness" : 1.0,
+        "Color" : "#000000",
+        "GraphID" : "f972d",
+        "LabelSize" : 10.0,
+        "shared_name" : "BRAF",
+        "XrefDatasource" : "Ensembl",
+        "LabelFont" : "Arial",
+        "Type" : "GeneProduct",
+        "Transparent" : "false",
+        "XrefId" : "ENSG00000157764",
+        "name" : "BRAF",
+        "SUID" : 17092,
+        "Height" : 20.0,
+        "Ensembl" : "ENSG00000157764",
+        "Width" : 46.0,
+        "selected" : true
+      },
+      "position" : {
+        "x" : 702.6681367144433,
+        "y" : 388.12679162072754
+      },
+      "selected" : true
+    }, {
+      "data" : {
+        "id" : "17091",
+        "FillColor" : "#ffffff",
+        "Shape" : "RoundedRectangle",
+        "BorderThickness" : 1.0,
+        "Color" : "#000000",
+        "GraphID" : "b1ca5",
+        "LabelSize" : 10.0,
+        "shared_name" : "ARAF",
+        "XrefDatasource" : "Ensembl",
+        "LabelFont" : "Arial",
+        "Type" : "GeneProduct",
+        "Transparent" : "false",
+        "XrefId" : "ENSG00000078061",
+        "name" : "ARAF",
+        "SUID" : 17091,
+        "Height" : 20.0,
+        "Ensembl" : "ENSG00000078061",
+        "Width" : 46.0,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 702.6681367144433,
+        "y" : 368.12679162072754
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17090",
+        "FillColor" : "#ffffff",
+        "Shape" : "RoundedRectangle",
+        "BorderThickness" : 1.0,
+        "Color" : "#000000",
+        "GraphID" : "da0f4",
+        "LabelSize" : 10.0,
+        "shared_name" : "HRAS",
+        "XrefDatasource" : "Ensembl",
+        "LabelFont" : "Arial",
+        "Type" : "GeneProduct",
+        "Transparent" : "false",
+        "XrefId" : "ENSG00000174775",
+        "name" : "HRAS",
+        "SUID" : 17090,
+        "Height" : 20.0,
+        "Ensembl" : "ENSG00000174775",
+        "Width" : 46.0,
+        "selected" : true
+      },
+      "position" : {
+        "x" : 702.6681367144433,
+        "y" : 300.12679162072754
+      },
+      "selected" : true
+    }, {
+      "data" : {
+        "id" : "17089",
+        "FillColor" : "#ffffff",
+        "Shape" : "RoundedRectangle",
+        "BorderThickness" : 1.0,
+        "Color" : "#000000",
+        "GraphID" : "e2706",
+        "LabelSize" : 10.0,
+        "shared_name" : "KRAS",
+        "XrefDatasource" : "Ensembl",
+        "LabelFont" : "Arial",
+        "Type" : "GeneProduct",
+        "Transparent" : "false",
+        "XrefId" : "ENSG00000133703",
+        "name" : "KRAS",
+        "SUID" : 17089,
+        "Height" : 20.0,
+        "Ensembl" : "ENSG00000133703",
+        "Width" : 46.0,
+        "selected" : true
+      },
+      "position" : {
+        "x" : 702.6681367144433,
+        "y" : 280.12679162072754
+      },
+      "selected" : true
+    }, {
+      "data" : {
+        "id" : "17088",
+        "FillColor" : "#ffffff",
+        "Shape" : "RoundedRectangle",
+        "BorderThickness" : 1.0,
+        "Color" : "#000000",
+        "GraphID" : "c403c",
+        "LabelSize" : 10.0,
+        "shared_name" : "NRAS",
+        "XrefDatasource" : "Ensembl",
+        "LabelFont" : "Arial",
+        "Type" : "GeneProduct",
+        "Transparent" : "false",
+        "XrefId" : "ENSG00000213281",
+        "name" : "NRAS",
+        "SUID" : 17088,
+        "Height" : 20.0,
+        "Ensembl" : "ENSG00000213281",
+        "Width" : 46.0,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 702.6681367144433,
+        "y" : 260.12679162072754
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17087",
+        "FillColor" : "#ffffff",
+        "Shape" : "RoundedRectangle",
+        "BorderThickness" : 1.0,
+        "Color" : "#000000",
+        "GraphID" : "d3a4e",
+        "LabelSize" : 10.0,
+        "shared_name" : "NF1",
+        "XrefDatasource" : "Ensembl",
+        "LabelFont" : "Arial",
+        "Type" : "GeneProduct",
+        "Transparent" : "false",
+        "XrefId" : "ENSG00000196712",
+        "name" : "NF1",
+        "SUID" : 17087,
+        "Height" : 20.0,
+        "Ensembl" : "ENSG00000196712",
+        "Width" : 46.0,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 780.8743939566218,
+        "y" : 299.8255169973211
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17086",
+        "FillColor" : "#ffffff",
+        "Shape" : "RoundedRectangle",
+        "BorderThickness" : 1.0,
+        "Color" : "#000000",
+        "GraphID" : "fc904",
+        "LabelSize" : 10.0,
+        "shared_name" : "CBL",
+        "XrefDatasource" : "Ensembl",
+        "LabelFont" : "Arial",
+        "Type" : "GeneProduct",
+        "Transparent" : "false",
+        "XrefId" : "ENSG00000110395",
+        "name" : "CBL",
+        "SUID" : 17086,
+        "Height" : 20.0,
+        "Ensembl" : "ENSG00000110395",
+        "Width" : 46.0,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 601.6681367144431,
+        "y" : 225.12679162072772
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17085",
+        "FillColor" : "#ffffff",
+        "Shape" : "RoundedRectangle",
+        "BorderThickness" : 1.0,
+        "Color" : "#000000",
+        "GraphID" : "d4bb6",
+        "LabelSize" : 10.0,
+        "shared_name" : "MET",
+        "XrefDatasource" : "Ensembl",
+        "LabelFont" : "Arial",
+        "Type" : "GeneProduct",
+        "Transparent" : "false",
+        "XrefId" : "ENSG00000105976",
+        "name" : "MET",
+        "SUID" : 17085,
+        "Height" : 20.0,
+        "Ensembl" : "ENSG00000105976",
+        "Width" : 52.0,
+        "selected" : true
+      },
+      "position" : {
+        "x" : 756.1166850422644,
+        "y" : 133.46012495406103
+      },
+      "selected" : true
+    }, {
+      "data" : {
+        "id" : "17084",
+        "FillColor" : "#ffffff",
+        "Shape" : "RoundedRectangle",
+        "BorderThickness" : 1.0,
+        "Color" : "#000000",
+        "GraphID" : "eec4f",
+        "LabelSize" : 10.0,
+        "shared_name" : "FGFR2",
+        "XrefDatasource" : "Ensembl",
+        "LabelFont" : "Arial",
+        "Type" : "GeneProduct",
+        "Transparent" : "false",
+        "XrefId" : "ENSG00000066468",
+        "name" : "FGFR2",
+        "SUID" : 17084,
+        "Height" : 20.0,
+        "Ensembl" : "ENSG00000066468",
+        "Width" : 53.0,
+        "selected" : true
+      },
+      "position" : {
+        "x" : 758.1166850422644,
+        "y" : 110.79345828739432
+      },
+      "selected" : true
+    }, {
+      "data" : {
+        "id" : "17083",
+        "FillColor" : "#ffffff",
+        "Shape" : "RoundedRectangle",
+        "BorderThickness" : 1.0,
+        "Color" : "#000000",
+        "GraphID" : "c0206",
+        "LabelSize" : 10.0,
+        "shared_name" : "EGFR",
+        "XrefDatasource" : "Ensembl",
+        "LabelFont" : "Arial",
+        "Type" : "GeneProduct",
+        "Transparent" : "false",
+        "XrefId" : "ENSG00000146648",
+        "name" : "EGFR",
+        "SUID" : 17083,
+        "Height" : 20.0,
+        "Ensembl" : "ENSG00000146648",
+        "Width" : 56.0,
+        "selected" : true
+      },
+      "position" : {
+        "x" : 628.0014700477768,
+        "y" : 90.79345828739424
+      },
+      "selected" : true
+    }, {
+      "data" : {
+        "id" : "17082",
+        "FillColor" : "#ffffff",
+        "Shape" : "RoundedRectangle",
+        "BorderThickness" : 1.0,
+        "Color" : "#000000",
+        "GraphID" : "be6f7",
+        "LabelSize" : 10.0,
+        "shared_name" : "ERBB2",
+        "XrefDatasource" : "Ensembl",
+        "LabelFont" : "Arial",
+        "Type" : "GeneProduct",
+        "Transparent" : "false",
+        "XrefId" : "ENSG00000141736",
+        "name" : "ERBB2",
+        "SUID" : 17082,
+        "Height" : 20.0,
+        "Ensembl" : "ENSG00000141736",
+        "Width" : 56.0,
+        "selected" : true
+      },
+      "position" : {
+        "x" : 628.0014700477768,
+        "y" : 110.79345828739424
+      },
+      "selected" : true
+    }, {
+      "data" : {
+        "id" : "17081",
+        "FillColor" : "#ffffff",
+        "Shape" : "RoundedRectangle",
+        "BorderThickness" : 1.0,
+        "Color" : "#000000",
+        "GraphID" : "c3620",
+        "LabelSize" : 10.0,
+        "shared_name" : "PDGFRB",
+        "XrefDatasource" : "Ensembl",
+        "LabelFont" : "Arial",
+        "Type" : "GeneProduct",
+        "Transparent" : "false",
+        "XrefId" : "ENSG00000113721",
+        "name" : "PDGFRB",
+        "SUID" : 17081,
+        "Height" : 20.0,
+        "Ensembl" : "ENSG00000113721",
+        "Width" : 60.0,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 693.0529217199568,
+        "y" : 110.79345828739429
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17080",
+        "FillColor" : "#ffffff",
+        "Shape" : "RoundedRectangle",
+        "BorderThickness" : 1.0,
+        "Color" : "#000000",
+        "GraphID" : "c532e",
+        "LabelSize" : 10.0,
+        "shared_name" : "PDGFRA",
+        "XrefDatasource" : "Ensembl",
+        "LabelFont" : "Arial",
+        "Type" : "GeneProduct",
+        "Transparent" : "false",
+        "XrefId" : "ENSG00000134853",
+        "name" : "PDGFRA",
+        "SUID" : 17080,
+        "Height" : 20.0,
+        "Ensembl" : "ENSG00000134853",
+        "Width" : 60.0,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 693.0529217199568,
+        "y" : 90.79345828739429
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17079",
+        "FillColor" : "#ffffff",
+        "Shape" : "RoundedRectangle",
+        "BorderThickness" : 1.0,
+        "Color" : "#000000",
+        "GraphID" : "e1fd7",
+        "LabelSize" : 10.0,
+        "shared_name" : "FOXO4",
+        "XrefDatasource" : "Ensembl",
+        "LabelFont" : "Arial",
+        "Type" : "GeneProduct",
+        "Transparent" : "false",
+        "XrefId" : "ENSG00000184481",
+        "name" : "FOXO4",
+        "SUID" : 17079,
+        "Height" : 20.0,
+        "Ensembl" : "ENSG00000184481",
+        "Width" : 53.0,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 452.157201112985,
+        "y" : 360.12679162072754
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17078",
+        "FillColor" : "#ffffff",
+        "Shape" : "RoundedRectangle",
+        "BorderThickness" : 1.0,
+        "Color" : "#000000",
+        "GraphID" : "f5088",
+        "LabelSize" : 10.0,
+        "shared_name" : "FOXO3",
+        "XrefDatasource" : "Ensembl",
+        "LabelFont" : "Arial",
+        "Type" : "GeneProduct",
+        "Transparent" : "false",
+        "XrefId" : "ENSG00000118689",
+        "name" : "FOXO3",
+        "SUID" : 17078,
+        "Height" : 20.0,
+        "Ensembl" : "ENSG00000118689",
+        "Width" : 53.0,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 452.157201112985,
+        "y" : 340.12679162072754
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17077",
+        "FillColor" : "#ffffff",
+        "Shape" : "RoundedRectangle",
+        "BorderThickness" : 1.0,
+        "Color" : "#000000",
+        "GraphID" : "b5f4c",
+        "LabelSize" : 10.0,
+        "shared_name" : "PIK3CG",
+        "XrefDatasource" : "Ensembl",
+        "LabelFont" : "Arial",
+        "Type" : "GeneProduct",
+        "Transparent" : "false",
+        "XrefId" : "ENSG00000105851",
+        "name" : "PIK3CG",
+        "SUID" : 17077,
+        "Height" : 20.0,
+        "Ensembl" : "ENSG00000105851",
+        "Width" : 55.0,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 407.15720111298486,
+        "y" : 259.1267916207277
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17076",
+        "FillColor" : "#ffffff",
+        "Shape" : "RoundedRectangle",
+        "BorderThickness" : 1.0,
+        "Color" : "#000000",
+        "GraphID" : "f82ac",
+        "LabelSize" : 10.0,
+        "shared_name" : "GAB1",
+        "XrefDatasource" : "Ensembl",
+        "LabelFont" : "Arial",
+        "Type" : "GeneProduct",
+        "Transparent" : "false",
+        "XrefId" : "ENSG00000109458",
+        "name" : "GAB1",
+        "SUID" : 17076,
+        "Height" : 20.0,
+        "Ensembl" : "ENSG00000109458",
+        "Width" : 45.0,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 486.1572011129848,
+        "y" : 204.12679162072772
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17075",
+        "FillColor" : "#ffffff",
+        "Shape" : "RoundedRectangle",
+        "BorderThickness" : 1.0,
+        "Color" : "#000000",
+        "GraphID" : "a1ae2",
+        "LabelSize" : 10.0,
+        "shared_name" : "SRC",
+        "XrefDatasource" : "Ensembl",
+        "LabelFont" : "Arial",
+        "Type" : "GeneProduct",
+        "Transparent" : "false",
+        "XrefId" : "ENSG00000197122",
+        "name" : "SRC",
+        "SUID" : 17075,
+        "Height" : 20.0,
+        "Ensembl" : "ENSG00000197122",
+        "Width" : 45.0,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 485.1572011129848,
+        "y" : 175.12679162072772
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17074",
+        "FillColor" : "#ffffff",
+        "Shape" : "RoundedRectangle",
+        "BorderThickness" : 1.0,
+        "Color" : "#000000",
+        "GraphID" : "a3039",
+        "LabelSize" : 10.0,
+        "shared_name" : "AKT3",
+        "XrefDatasource" : "Ensembl",
+        "LabelFont" : "Arial",
+        "Type" : "GeneProduct",
+        "Transparent" : "false",
+        "XrefId" : "ENSG00000117020",
+        "name" : "AKT3",
+        "SUID" : 17074,
+        "Height" : 20.0,
+        "Ensembl" : "ENSG00000117020",
+        "Width" : 45.0,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 305.0656636373992,
+        "y" : 360.12679162072754
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17073",
+        "FillColor" : "#ffffff",
+        "Shape" : "RoundedRectangle",
+        "BorderThickness" : 1.0,
+        "Color" : "#000000",
+        "GraphID" : "f6501",
+        "LabelSize" : 10.0,
+        "shared_name" : "AKT2",
+        "XrefDatasource" : "Ensembl",
+        "LabelFont" : "Arial",
+        "Type" : "GeneProduct",
+        "Transparent" : "false",
+        "XrefId" : "ENSG00000105221",
+        "name" : "AKT2",
+        "SUID" : 17073,
+        "Height" : 20.0,
+        "Ensembl" : "ENSG00000105221",
+        "Width" : 45.0,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 305.0656636373992,
+        "y" : 340.12679162072754
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17072",
+        "FillColor" : "#ffffff",
+        "Shape" : "RoundedRectangle",
+        "BorderThickness" : 1.0,
+        "Color" : "#000000",
+        "GraphID" : "d0fb8",
+        "LabelSize" : 10.0,
+        "shared_name" : "PIK3CD",
+        "XrefDatasource" : "Ensembl",
+        "LabelFont" : "Arial",
+        "Type" : "GeneProduct",
+        "Transparent" : "false",
+        "XrefId" : "ENSG00000171608",
+        "name" : "PIK3CD",
+        "SUID" : 17072,
+        "Height" : 20.0,
+        "Ensembl" : "ENSG00000171608",
+        "Width" : 55.0,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 332.15720111298515,
+        "y" : 160.1267916207277
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17071",
+        "FillColor" : "#ffffff",
+        "Shape" : "RoundedRectangle",
+        "BorderThickness" : 1.0,
+        "Color" : "#000000",
+        "GraphID" : "c56ab",
+        "LabelSize" : 10.0,
+        "shared_name" : "PIK3CB",
+        "XrefDatasource" : "Ensembl",
+        "LabelFont" : "Arial",
+        "Type" : "GeneProduct",
+        "Transparent" : "false",
+        "XrefId" : "ENSG00000051382",
+        "name" : "PIK3CB",
+        "SUID" : 17071,
+        "Height" : 20.0,
+        "Ensembl" : "ENSG00000051382",
+        "Width" : 55.0,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 332.15720111298515,
+        "y" : 140.12679162072766
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17070",
+        "FillColor" : "#ffffff",
+        "Shape" : "RoundedRectangle",
+        "BorderThickness" : 1.0,
+        "Color" : "#000000",
+        "GraphID" : "af152",
+        "LabelSize" : 10.0,
+        "shared_name" : "PIK3CA",
+        "XrefDatasource" : "Ensembl",
+        "LabelFont" : "Arial",
+        "Type" : "GeneProduct",
+        "Transparent" : "false",
+        "XrefId" : "ENSG00000121879",
+        "name" : "PIK3CA",
+        "SUID" : 17070,
+        "Height" : 20.0,
+        "Ensembl" : "ENSG00000121879",
+        "Width" : 55.0,
+        "selected" : true
+      },
+      "position" : {
+        "x" : 332.15720111298515,
+        "y" : 120.12679162072767
+      },
+      "selected" : true
+    }, {
+      "data" : {
+        "id" : "17069",
+        "FillColor" : "#ffffff",
+        "Shape" : "RoundedRectangle",
+        "BorderThickness" : 1.0,
+        "Color" : "#000000",
+        "GraphID" : "d1789",
+        "LabelSize" : 10.0,
+        "shared_name" : "PIK3R2",
+        "XrefDatasource" : "Ensembl",
+        "LabelFont" : "Arial",
+        "Type" : "GeneProduct",
+        "Transparent" : "false",
+        "XrefId" : "ENSG00000105647",
+        "name" : "PIK3R2",
+        "SUID" : 17069,
+        "Height" : 20.0,
+        "Ensembl" : "ENSG00000105647",
+        "Width" : 55.0,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 278.1572011129855,
+        "y" : 151.1267916207277
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17068",
+        "FillColor" : "#ffffff",
+        "Shape" : "RoundedRectangle",
+        "BorderThickness" : 1.0,
+        "Color" : "#000000",
+        "GraphID" : "b7934",
+        "LabelSize" : 10.0,
+        "shared_name" : "PIK3C2G",
+        "XrefDatasource" : "Ensembl",
+        "LabelFont" : "Arial",
+        "Type" : "GeneProduct",
+        "Transparent" : "false",
+        "XrefId" : "ENSG00000139144",
+        "name" : "PIK3C2G",
+        "SUID" : 17068,
+        "Height" : 20.0,
+        "Ensembl" : "ENSG00000139144",
+        "Width" : 63.0,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 960.1676774379641,
+        "y" : 215.7141302214203
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17067",
+        "FillColor" : "#ffffff",
+        "Shape" : "RoundedRectangle",
+        "BorderThickness" : 1.0,
+        "Color" : "#000000",
+        "GraphID" : "f6a39",
+        "LabelSize" : 10.0,
+        "shared_name" : "PIK3C2A",
+        "XrefDatasource" : "Ensembl",
+        "LabelFont" : "Arial",
+        "Type" : "GeneProduct",
+        "Transparent" : "false",
+        "XrefId" : "ENSG00000011405",
+        "name" : "PIK3C2A",
+        "SUID" : 17067,
+        "Height" : 20.0,
+        "Ensembl" : "ENSG00000011405",
+        "Width" : 63.0,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 960.1676774379641,
+        "y" : 175.71413022142042
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17066",
+        "FillColor" : "#ffffff",
+        "Shape" : "RoundedRectangle",
+        "BorderThickness" : 1.0,
+        "Color" : "#000000",
+        "GraphID" : "f7943",
+        "LabelSize" : 10.0,
+        "shared_name" : "GRB2",
+        "XrefDatasource" : "Ensembl",
+        "LabelFont" : "Arial",
+        "Type" : "GeneProduct",
+        "Transparent" : "false",
+        "XrefId" : "ENSG00000177885",
+        "name" : "GRB2",
+        "SUID" : 17066,
+        "Height" : 20.0,
+        "Ensembl" : "ENSG00000177885",
+        "Width" : 46.0,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 702.6681367144431,
+        "y" : 204.12679162072772
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17065",
+        "FillColor" : "#ffffff",
+        "Shape" : "RoundedRectangle",
+        "BorderThickness" : 1.0,
+        "Color" : "#000000",
+        "GraphID" : "ef296",
+        "LabelSize" : 10.0,
+        "shared_name" : "ERBB3",
+        "XrefDatasource" : "Ensembl",
+        "LabelFont" : "Arial",
+        "Type" : "GeneProduct",
+        "Transparent" : "false",
+        "XrefId" : "ENSG00000065361",
+        "name" : "ERBB3",
+        "SUID" : 17065,
+        "Height" : 20.0,
+        "Ensembl" : "ENSG00000065361",
+        "Width" : 56.0,
+        "selected" : true
+      },
+      "position" : {
+        "x" : 628.0014700477768,
+        "y" : 130.7934582873943
+      },
+      "selected" : true
+    }, {
+      "data" : {
+        "id" : "17064",
+        "FillColor" : "#ffffff",
+        "Shape" : "Rectangle",
+        "BorderThickness" : 1.0,
+        "Color" : "#990099",
+        "GraphID" : "eef2d",
+        "LabelSize" : 10.0,
+        "shared_name" : "MIR21",
+        "XrefDatasource" : "Ensembl",
+        "LabelFont" : "Arial",
+        "Type" : "Rna",
+        "Transparent" : "false",
+        "XrefId" : "ENSG00000284190",
+        "name" : "MIR21",
+        "SUID" : 17064,
+        "Height" : 20.0,
+        "Ensembl" : "ENSG00000284190",
+        "Width" : 58.6666666666667,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 467.9999999999994,
+        "y" : 110.66666666666688
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17063",
+        "FillColor" : "#ffffff",
+        "Shape" : "RoundedRectangle",
+        "BorderThickness" : 1.0,
+        "Color" : "#000000",
+        "GraphID" : "ecb9f",
+        "LabelSize" : 10.0,
+        "shared_name" : "TSC1",
+        "XrefDatasource" : "Ensembl",
+        "LabelFont" : "Arial",
+        "Type" : "GeneProduct",
+        "Transparent" : "false",
+        "XrefId" : "ENSG00000165699",
+        "name" : "TSC1",
+        "SUID" : 17063,
+        "Height" : 20.0,
+        "Ensembl" : "ENSG00000165699",
+        "Width" : 47.77873811581678,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 364.1296674244465,
+        "y" : 439.3470871494671
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17062",
+        "FillColor" : "#ffffff",
+        "Shape" : "RoundedRectangle",
+        "BorderThickness" : 1.0,
+        "Color" : "#000000",
+        "GraphID" : "eb808",
+        "LabelSize" : 10.0,
+        "shared_name" : "PIK3R1",
+        "XrefDatasource" : "Ensembl",
+        "LabelFont" : "Arial",
+        "Type" : "GeneProduct",
+        "Transparent" : "false",
+        "XrefId" : "ENSG00000145675",
+        "name" : "PIK3R1",
+        "SUID" : 17062,
+        "Height" : 20.0,
+        "Ensembl" : "ENSG00000145675",
+        "Width" : 55.0,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 278.1572011129855,
+        "y" : 131.12679162072766
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17061",
+        "FillColor" : "#ffffff",
+        "Shape" : "RoundedRectangle",
+        "BorderThickness" : 1.0,
+        "Color" : "#000000",
+        "GraphID" : "e483d",
+        "LabelSize" : 10.0,
+        "shared_name" : "ERRFI1",
+        "XrefDatasource" : "Ensembl",
+        "LabelFont" : "Arial",
+        "Type" : "GeneProduct",
+        "Transparent" : "false",
+        "XrefId" : "ENSG00000116285",
+        "name" : "ERRFI1",
+        "SUID" : 17061,
+        "Height" : 20.0,
+        "Ensembl" : "ENSG00000116285",
+        "Width" : 60.0,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 796.6681367144431,
+        "y" : 182.63947078280052
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17060",
+        "FillColor" : "#ffffff",
+        "Shape" : "RoundedRectangle",
+        "BorderThickness" : 1.0,
+        "Color" : "#000000",
+        "GraphID" : "e2b6b",
+        "LabelSize" : 10.0,
+        "shared_name" : "FOXO1",
+        "XrefDatasource" : "Ensembl",
+        "LabelFont" : "Arial",
+        "Type" : "GeneProduct",
+        "Transparent" : "false",
+        "XrefId" : "ENSG00000150907",
+        "name" : "FOXO1",
+        "SUID" : 17060,
+        "Height" : 20.0,
+        "Ensembl" : "ENSG00000150907",
+        "Width" : 53.0,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 452.157201112985,
+        "y" : 320.12679162072754
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17059",
+        "FillColor" : "#ffffff",
+        "Shape" : "RoundedRectangle",
+        "BorderThickness" : 1.0,
+        "Color" : "#000000",
+        "GraphID" : "dc3bf",
+        "LabelSize" : 10.0,
+        "shared_name" : "IRS1",
+        "XrefDatasource" : "Ensembl",
+        "LabelFont" : "Arial",
+        "Type" : "GeneProduct",
+        "Transparent" : "false",
+        "XrefId" : "ENSG00000169047",
+        "name" : "IRS1",
+        "SUID" : 17059,
+        "Height" : 20.0,
+        "Ensembl" : "ENSG00000169047",
+        "Width" : 45.0,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 485.1572011129848,
+        "y" : 144.12679162072772
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17058",
+        "FillColor" : "#ffffff",
+        "Shape" : "Rectangle",
+        "BorderThickness" : 1.0,
+        "Color" : "#990099",
+        "GraphID" : "dbe13",
+        "LabelSize" : 10.0,
+        "shared_name" : "MIR21",
+        "XrefDatasource" : "Ensembl",
+        "LabelFont" : "Arial",
+        "Type" : "Rna",
+        "Transparent" : "false",
+        "XrefId" : "ENSG00000284190",
+        "name" : "MIR21",
+        "SUID" : 17058,
+        "Height" : 20.0,
+        "Ensembl" : "ENSG00000284190",
+        "Width" : 58.66666666666667,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 54.666666666666664,
+        "y" : 685.3333333333335
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17057",
+        "FillColor" : "#ffffff",
+        "Shape" : "RoundedRectangle",
+        "BorderThickness" : 1.0,
+        "Color" : "#0000ff",
+        "GraphID" : "d6748",
+        "LabelSize" : 10.0,
+        "shared_name" : "PIP3",
+        "XrefDatasource" : "ChEBI",
+        "LabelFont" : "Arial",
+        "Type" : "Metabolite",
+        "Transparent" : "false",
+        "XrefId" : "CHEBI:16618",
+        "name" : "PIP3",
+        "SUID" : 17057,
+        "Height" : 20.0,
+        "Width" : 44.0,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 305.0656636373989,
+        "y" : 220.12679162072772
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17056",
+        "FillColor" : "#ffffff",
+        "Shape" : "RoundedRectangle",
+        "BorderThickness" : 1.0,
+        "Color" : "#000000",
+        "GraphID" : "d4e49",
+        "LabelSize" : 10.0,
+        "shared_name" : "PDPK1",
+        "XrefDatasource" : "Ensembl",
+        "LabelFont" : "Arial",
+        "Type" : "GeneProduct",
+        "Transparent" : "false",
+        "XrefId" : "ENSG00000140992",
+        "name" : "PDPK1",
+        "SUID" : 17056,
+        "Height" : 20.0,
+        "Ensembl" : "ENSG00000140992",
+        "Width" : 55.0,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 305.0656636373989,
+        "y" : 266.1267916207277
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17055",
+        "FillColor" : "#ffffff",
+        "Shape" : "RoundedRectangle",
+        "BorderThickness" : 1.0,
+        "Color" : "#000000",
+        "GraphID" : "d1aa6",
+        "LabelSize" : 10.0,
+        "shared_name" : "P16",
+        "XrefDatasource" : "Ensembl",
+        "LabelFont" : "Arial",
+        "Type" : "GeneProduct",
+        "Transparent" : "false",
+        "XrefId" : "ENSG00000147889",
+        "name" : "P16",
+        "SUID" : 17055,
+        "Height" : 20.0,
+        "Ensembl" : "ENSG00000147889",
+        "Width" : 52.96456352636124,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 451.6232214579868,
+        "y" : 554.1515655527563
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17054",
+        "FillColor" : "#ffffff",
+        "Shape" : "RoundedRectangle",
+        "BorderThickness" : 1.0,
+        "Color" : "#0000ff",
+        "GraphID" : "d07e6",
+        "LabelSize" : 10.0,
+        "shared_name" : "PI(3)P",
+        "XrefDatasource" : "ChEBI",
+        "LabelFont" : "Arial",
+        "Type" : "Metabolite",
+        "Transparent" : "false",
+        "XrefId" : "CHEBI:26034",
+        "name" : "PI(3)P",
+        "SUID" : 17054,
+        "Height" : 20.0,
+        "Width" : 45.0,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 960.1676774379637,
+        "y" : 272.7141302214204
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17053",
+        "FillColor" : "#ffffff",
+        "Shape" : "RoundedRectangle",
+        "BorderThickness" : 1.0,
+        "Color" : "#000000",
+        "GraphID" : "cea21",
+        "LabelSize" : 10.0,
+        "shared_name" : "CCNE1",
+        "XrefDatasource" : "Ensembl",
+        "LabelFont" : "Arial",
+        "Type" : "GeneProduct",
+        "Transparent" : "false",
+        "XrefId" : "ENSG00000105173",
+        "name" : "CCNE1",
+        "SUID" : 17053,
+        "Height" : 20.0,
+        "Ensembl" : "ENSG00000105173",
+        "Width" : 60.74330164217808,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 532.4356674389733,
+        "y" : 472.7744165946408
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17052",
+        "FillColor" : "#ffffff",
+        "Shape" : "RoundedRectangle",
+        "BorderThickness" : 1.0,
+        "Color" : "#000000",
+        "GraphID" : "c6e3a",
+        "LabelSize" : 10.0,
+        "shared_name" : "AKT1",
+        "XrefDatasource" : "Ensembl",
+        "LabelFont" : "Arial",
+        "Type" : "GeneProduct",
+        "Transparent" : "false",
+        "XrefId" : "ENSG00000142208",
+        "name" : "AKT1",
+        "SUID" : 17052,
+        "Height" : 20.0,
+        "Ensembl" : "ENSG00000142208",
+        "Width" : 45.0,
+        "selected" : true
+      },
+      "position" : {
+        "x" : 305.0656636373992,
+        "y" : 320.12679162072754
+      },
+      "selected" : true
+    }, {
+      "data" : {
+        "id" : "17051",
+        "FillColor" : "#ffffff",
+        "Shape" : "None",
+        "BorderThickness" : 0.0,
+        "Color" : "#14961e",
+        "GraphID" : "c2333",
+        "LabelSize" : 14.0,
+        "shared_name" : "Cell Migration",
+        "LabelFont" : "Arial Bold",
+        "Type" : "Pathway",
+        "Transparent" : "true",
+        "XrefId" : "",
+        "name" : "Cell Migration",
+        "SUID" : 17051,
+        "Height" : 20.0,
+        "Width" : 137.30255164034023,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 959.6162754189037,
+        "y" : 764.9093600075462
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17050",
+        "FillColor" : "#ffffff",
+        "Shape" : "RoundedRectangle",
+        "BorderThickness" : 1.0,
+        "Color" : "#000000",
+        "GraphID" : "bd96f",
+        "LabelSize" : 10.0,
+        "shared_name" : "IGF1R",
+        "XrefDatasource" : "Ensembl",
+        "LabelFont" : "Arial",
+        "Type" : "GeneProduct",
+        "Transparent" : "false",
+        "XrefId" : "ENSG00000140443",
+        "name" : "IGF1R",
+        "SUID" : 17050,
+        "Height" : 20.0,
+        "Ensembl" : "ENSG00000140443",
+        "Width" : 52.0,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 691.0529217199569,
+        "y" : 133.46012495406097
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17049",
+        "FillColor" : "#ffffff",
+        "Shape" : "RoundedRectangle",
+        "BorderThickness" : 1.0,
+        "Color" : "#0000ff",
+        "GraphID" : "b58be",
+        "LabelSize" : 10.0,
+        "shared_name" : "LPA",
+        "XrefDatasource" : "ChEBI",
+        "LabelFont" : "Arial",
+        "Type" : "Metabolite",
+        "Transparent" : "false",
+        "XrefId" : "CHEBI:52288",
+        "name" : "LPA",
+        "SUID" : 17049,
+        "Height" : 20.0,
+        "Width" : 40.0,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 960.1676774379637,
+        "y" : 119.71413022142043
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17048",
+        "FillColor" : "#ffffff",
+        "Shape" : "RoundedRectangle",
+        "BorderThickness" : 1.0,
+        "Color" : "#000000",
+        "GraphID" : "b199b",
+        "LabelSize" : 10.0,
+        "shared_name" : "PTEN",
+        "XrefDatasource" : "Ensembl",
+        "LabelFont" : "Arial",
+        "Type" : "GeneProduct",
+        "Transparent" : "false",
+        "XrefId" : "ENSG00000171862",
+        "name" : "PTEN",
+        "SUID" : 17048,
+        "Height" : 20.0,
+        "Ensembl" : "ENSG00000171862",
+        "Width" : 50.0,
+        "selected" : true
+      },
+      "position" : {
+        "x" : 389.65720111298486,
+        "y" : 199.12679162072772
+      },
+      "selected" : true
+    }, {
+      "data" : {
+        "id" : "17047",
+        "FillColor" : "#ffffff",
+        "Shape" : "RoundedRectangle",
+        "BorderThickness" : 1.0,
+        "Color" : "#000000",
+        "GraphID" : "ac3af",
+        "LabelSize" : 10.0,
+        "shared_name" : "RB1",
+        "XrefDatasource" : "Ensembl",
+        "LabelFont" : "Arial",
+        "Type" : "GeneProduct",
+        "Transparent" : "false",
+        "XrefId" : "ENSG00000139687",
+        "name" : "RB1",
+        "SUID" : 17047,
+        "Height" : 20.0,
+        "Ensembl" : "ENSG00000139687",
+        "Width" : 46.3025210084033,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 451.6232214579869,
+        "y" : 662.8151260504198
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17046",
+        "FillColor" : "#ffffff",
+        "Shape" : "RoundedRectangle",
+        "BorderThickness" : 1.0,
+        "Color" : "#000000",
+        "GraphID" : "a8244",
+        "LabelSize" : 10.0,
+        "shared_name" : "MAP2K1",
+        "XrefDatasource" : "Ensembl",
+        "LabelFont" : "Arial",
+        "Type" : "GeneProduct",
+        "Transparent" : "false",
+        "XrefId" : "ENSG00000169032",
+        "name" : "MAP2K1",
+        "SUID" : 17046,
+        "Height" : 20.0,
+        "Ensembl" : "ENSG00000169032",
+        "Width" : 64.0,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 671.1681367144433,
+        "y" : 503.1267916207272
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17045",
+        "FillColor" : "#ffffff",
+        "Shape" : "RoundedRectangle",
+        "BorderThickness" : 1.0,
+        "Color" : "#000000",
+        "GraphID" : "a7979",
+        "LabelSize" : 10.0,
+        "shared_name" : "CCND1",
+        "XrefDatasource" : "Ensembl",
+        "LabelFont" : "Arial",
+        "Type" : "GeneProduct",
+        "Transparent" : "false",
+        "XrefId" : "ENSG00000110092",
+        "name" : "CCND1",
+        "SUID" : 17045,
+        "Height" : 20.0,
+        "Ensembl" : "ENSG00000110092",
+        "Width" : 53.82886776145189,
+        "selected" : true
+      },
+      "position" : {
+        "x" : 354.3889950102772,
+        "y" : 565.2549697493517
+      },
+      "selected" : true
+    }, {
+      "data" : {
+        "id" : "17044",
+        "FillColor" : "#ffffff",
+        "Shape" : "RoundedRectangle",
+        "BorderThickness" : 1.0,
+        "Color" : "#000000",
+        "GraphID" : "a6a41",
+        "LabelSize" : 10.0,
+        "shared_name" : "SPRY2",
+        "XrefDatasource" : "Ensembl",
+        "LabelFont" : "Arial",
+        "Type" : "GeneProduct",
+        "Transparent" : "false",
+        "XrefId" : "ENSG00000136158",
+        "name" : "SPRY2",
+        "SUID" : 17044,
+        "Height" : 20.0,
+        "Ensembl" : "ENSG00000136158",
+        "Width" : 54.0,
+        "selected" : true
+      },
+      "position" : {
+        "x" : 601.6681367144431,
+        "y" : 341.1267916207277
+      },
+      "selected" : true
+    }, {
+      "data" : {
+        "id" : "17043",
+        "FillColor" : "#ffffff",
+        "Shape" : "RoundedRectangle",
+        "BorderThickness" : 1.0,
+        "Color" : "#000000",
+        "GraphID" : "a1970",
+        "LabelSize" : 10.0,
+        "shared_name" : "PIK3C2B",
+        "XrefDatasource" : "Ensembl",
+        "LabelFont" : "Arial",
+        "Type" : "GeneProduct",
+        "Transparent" : "false",
+        "XrefId" : "ENSG00000133056",
+        "name" : "PIK3C2B",
+        "SUID" : 17043,
+        "Height" : 20.0,
+        "Ensembl" : "ENSG00000133056",
+        "Width" : 63.0,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 960.1676774379641,
+        "y" : 195.7141302214203
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17042",
+        "FillColor" : "#ffffff",
+        "Shape" : "RoundedRectangle",
+        "BorderThickness" : 1.0,
+        "Color" : "#000000",
+        "GraphID" : "a063c",
+        "LabelSize" : 10.0,
+        "shared_name" : "FGFR1",
+        "XrefDatasource" : "Ensembl",
+        "LabelFont" : "Arial",
+        "Type" : "GeneProduct",
+        "Transparent" : "false",
+        "XrefId" : "ENSG00000077782",
+        "name" : "FGFR1",
+        "SUID" : 17042,
+        "Height" : 20.0,
+        "Ensembl" : "ENSG00000077782",
+        "Width" : 53.0,
+        "selected" : true
+      },
+      "position" : {
+        "x" : 758.1166850422644,
+        "y" : 90.79345828739432
+      },
+      "selected" : true
+    } ],
+    "edges" : [ {
+      "data" : {
+        "id" : "17281",
+        "source" : "17279",
+        "target" : "17280",
+        "StartArrow" : "Line",
+        "EndArrow" : "mim-stimulation",
+        "ConnectorType" : "Straight",
+        "LineThickness" : 1.0,
+        "LineStyle" : "Solid",
+        "Color" : "#00cc00",
+        "SUID" : 17281,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17278",
+        "source" : "17276",
+        "target" : "17277",
+        "StartArrow" : "Line",
+        "EndArrow" : "mim-inhibition",
+        "ConnectorType" : "Straight",
+        "LineThickness" : 1.0,
+        "LineStyle" : "Solid",
+        "Color" : "#cc0000",
+        "SUID" : 17278,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17271",
+        "source" : "17175",
+        "target" : "17057",
+        "StartArrow" : "Line",
+        "EndArrow" : "mim-stimulation",
+        "ConnectorType" : "Straight",
+        "LineThickness" : 1.0,
+        "LineStyle" : "Solid",
+        "Color" : "#00cc00",
+        "SUID" : 17271,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17265",
+        "source" : "17174",
+        "target" : "17075",
+        "StartArrow" : "Line",
+        "EndArrow" : "mim-stimulation",
+        "ConnectorType" : "Straight",
+        "LineThickness" : 1.0,
+        "LineStyle" : "Solid",
+        "Color" : "#00cc00",
+        "SUID" : 17265,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17261",
+        "source" : "17174",
+        "target" : "17066",
+        "StartArrow" : "Line",
+        "EndArrow" : "mim-stimulation",
+        "ConnectorType" : "Straight",
+        "LineThickness" : 1.0,
+        "LineStyle" : "Solid",
+        "Color" : "#00cc00",
+        "SUID" : 17261,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17260",
+        "source" : "17174",
+        "target" : "17059",
+        "StartArrow" : "Line",
+        "EndArrow" : "mim-stimulation",
+        "ConnectorType" : "Straight",
+        "LineThickness" : 1.0,
+        "LineStyle" : "Solid",
+        "Color" : "#00cc00",
+        "SUID" : 17260,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17244",
+        "source" : "17174",
+        "target" : "17171",
+        "StartArrow" : "Line",
+        "EndArrow" : "mim-stimulation",
+        "ConnectorType" : "Straight",
+        "LineThickness" : 1.0,
+        "LineStyle" : "Solid",
+        "Color" : "#00cc00",
+        "SUID" : 17244,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17215",
+        "source" : "17174",
+        "target" : "17166",
+        "StartArrow" : "Line",
+        "EndArrow" : "mim-stimulation",
+        "ConnectorType" : "Straight",
+        "LineThickness" : 1.0,
+        "LineStyle" : "Solid",
+        "Color" : "#00cc00",
+        "SUID" : 17215,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17274",
+        "source" : "17173",
+        "target" : "17047",
+        "StartArrow" : "Line",
+        "EndArrow" : "mim-inhibition",
+        "ConnectorType" : "Straight",
+        "LineThickness" : 1.0,
+        "LineStyle" : "Solid",
+        "Color" : "#cc0000",
+        "SUID" : 17274,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17264",
+        "source" : "17172",
+        "target" : "17138",
+        "StartArrow" : "Line",
+        "EndArrow" : "Arrow",
+        "ConnectorType" : "Straight",
+        "LineThickness" : 1.0,
+        "LineStyle" : "Solid",
+        "Color" : "#000000",
+        "SUID" : 17264,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17253",
+        "source" : "17171",
+        "target" : "17168",
+        "StartArrow" : "Line",
+        "EndArrow" : "mim-stimulation",
+        "ConnectorType" : "Straight",
+        "LineThickness" : 1.0,
+        "LineStyle" : "Solid",
+        "Color" : "#00cc00",
+        "SUID" : 17253,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17245",
+        "source" : "17170",
+        "target" : "17173",
+        "StartArrow" : "Line",
+        "EndArrow" : "mim-inhibition",
+        "ConnectorType" : "Straight",
+        "LineThickness" : 1.0,
+        "LineStyle" : "Solid",
+        "Color" : "#cc0000",
+        "SUID" : 17245,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17228",
+        "source" : "17170",
+        "target" : "17167",
+        "StartArrow" : "Line",
+        "EndArrow" : "mim-inhibition",
+        "ConnectorType" : "Straight",
+        "LineThickness" : 1.0,
+        "LineStyle" : "Solid",
+        "Color" : "#cc0000",
+        "SUID" : 17228,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17224",
+        "source" : "17169",
+        "target" : "17162",
+        "StartArrow" : "Line",
+        "EndArrow" : "mim-stimulation",
+        "ConnectorType" : "Straight",
+        "LineThickness" : 1.0,
+        "LineStyle" : "Solid",
+        "Color" : "#00cc00",
+        "SUID" : 17224,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17259",
+        "source" : "17168",
+        "target" : "17161",
+        "StartArrow" : "Line",
+        "EndArrow" : "mim-stimulation",
+        "ConnectorType" : "Straight",
+        "LineThickness" : 1.0,
+        "LineStyle" : "Solid",
+        "Color" : "#00cc00",
+        "SUID" : 17259,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17241",
+        "source" : "17168",
+        "target" : "17169",
+        "StartArrow" : "Line",
+        "EndArrow" : "mim-stimulation",
+        "ConnectorType" : "Straight",
+        "LineThickness" : 1.0,
+        "LineStyle" : "Solid",
+        "Color" : "#00cc00",
+        "SUID" : 17241,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17235",
+        "source" : "17167",
+        "target" : "17047",
+        "StartArrow" : "Line",
+        "EndArrow" : "mim-inhibition",
+        "ConnectorType" : "Straight",
+        "LineThickness" : 1.0,
+        "LineStyle" : "Solid",
+        "Color" : "#cc0000",
+        "SUID" : 17235,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17248",
+        "source" : "17166",
+        "target" : "17054",
+        "StartArrow" : "Line",
+        "EndArrow" : "mim-stimulation",
+        "ConnectorType" : "Straight",
+        "LineThickness" : 1.0,
+        "LineStyle" : "Solid",
+        "Color" : "#00cc00",
+        "SUID" : 17248,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17270",
+        "source" : "17165",
+        "target" : "17113",
+        "StartArrow" : "Line",
+        "EndArrow" : "mim-inhibition",
+        "ConnectorType" : "Straight",
+        "LineThickness" : 1.0,
+        "LineStyle" : "Solid",
+        "Color" : "#cc0000",
+        "SUID" : 17270,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17254",
+        "source" : "17165",
+        "target" : "17157",
+        "StartArrow" : "Line",
+        "EndArrow" : "mim-inhibition",
+        "ConnectorType" : "Straight",
+        "LineThickness" : 1.0,
+        "LineStyle" : "Solid",
+        "Color" : "#cc0000",
+        "SUID" : 17254,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17237",
+        "source" : "17165",
+        "target" : "17139",
+        "StartArrow" : "Line",
+        "EndArrow" : "Arrow",
+        "ConnectorType" : "Straight",
+        "LineThickness" : 1.0,
+        "LineStyle" : "Solid",
+        "Color" : "#000000",
+        "SUID" : 17237,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17234",
+        "source" : "17165",
+        "target" : "17164",
+        "StartArrow" : "Line",
+        "EndArrow" : "mim-inhibition",
+        "ConnectorType" : "Straight",
+        "LineThickness" : 1.0,
+        "LineStyle" : "Solid",
+        "Color" : "#cc0000",
+        "SUID" : 17234,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17233",
+        "source" : "17165",
+        "target" : "17127",
+        "StartArrow" : "Line",
+        "EndArrow" : "mim-stimulation",
+        "ConnectorType" : "Straight",
+        "LineThickness" : 1.0,
+        "LineStyle" : "Solid",
+        "Color" : "#00cc00",
+        "SUID" : 17233,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17213",
+        "source" : "17163",
+        "target" : "17047",
+        "StartArrow" : "Line",
+        "EndArrow" : "mim-inhibition",
+        "ConnectorType" : "Straight",
+        "LineThickness" : 1.0,
+        "LineStyle" : "Solid",
+        "Color" : "#cc0000",
+        "SUID" : 17213,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17225",
+        "source" : "17162",
+        "target" : "17167",
+        "StartArrow" : "Line",
+        "EndArrow" : "mim-stimulation",
+        "ConnectorType" : "Straight",
+        "LineThickness" : 1.0,
+        "LineStyle" : "Solid",
+        "Color" : "#00cc00",
+        "SUID" : 17225,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17216",
+        "source" : "17162",
+        "target" : "17112",
+        "StartArrow" : "Line",
+        "EndArrow" : "Arrow",
+        "ConnectorType" : "Straight",
+        "LineThickness" : 1.0,
+        "LineStyle" : "Solid",
+        "Color" : "#000000",
+        "SUID" : 17216,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17210",
+        "source" : "17162",
+        "target" : "17173",
+        "StartArrow" : "Line",
+        "EndArrow" : "mim-stimulation",
+        "ConnectorType" : "Straight",
+        "LineThickness" : 1.0,
+        "LineStyle" : "Solid",
+        "Color" : "#00cc00",
+        "SUID" : 17210,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17207",
+        "source" : "17161",
+        "target" : "17169",
+        "StartArrow" : "Line",
+        "EndArrow" : "mim-stimulation",
+        "ConnectorType" : "Straight",
+        "LineThickness" : 1.0,
+        "LineStyle" : "Solid",
+        "Color" : "#00cc00",
+        "SUID" : 17207,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17223",
+        "source" : "17160",
+        "target" : "17138",
+        "StartArrow" : "Line",
+        "EndArrow" : "Arrow",
+        "ConnectorType" : "Straight",
+        "LineThickness" : 1.0,
+        "LineStyle" : "Solid",
+        "Color" : "#000000",
+        "SUID" : 17223,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17256",
+        "source" : "17159",
+        "target" : "17077",
+        "StartArrow" : "Line",
+        "EndArrow" : "mim-stimulation",
+        "ConnectorType" : "Straight",
+        "LineThickness" : 1.0,
+        "LineStyle" : "Solid",
+        "Color" : "#00cc00",
+        "SUID" : 17256,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17239",
+        "source" : "17159",
+        "target" : "17161",
+        "StartArrow" : "Line",
+        "EndArrow" : "mim-stimulation",
+        "ConnectorType" : "Straight",
+        "LineThickness" : 1.0,
+        "LineStyle" : "Solid",
+        "Color" : "#00cc00",
+        "SUID" : 17239,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17242",
+        "source" : "17157",
+        "target" : "17113",
+        "StartArrow" : "Line",
+        "EndArrow" : "mim-stimulation",
+        "ConnectorType" : "Straight",
+        "LineThickness" : 1.0,
+        "LineStyle" : "Solid",
+        "Color" : "#00cc00",
+        "SUID" : 17242,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17217",
+        "source" : "17157",
+        "target" : "17044",
+        "StartArrow" : "Line",
+        "EndArrow" : "mim-stimulation",
+        "ConnectorType" : "Straight",
+        "LineThickness" : 1.0,
+        "LineStyle" : "Solid",
+        "Color" : "#00cc00",
+        "SUID" : 17217,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17209",
+        "source" : "17157",
+        "target" : "17115",
+        "StartArrow" : "Line",
+        "EndArrow" : "mim-stimulation",
+        "ConnectorType" : "Straight",
+        "LineThickness" : 1.0,
+        "LineStyle" : "Solid",
+        "Color" : "#00cc00",
+        "SUID" : 17209,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17263",
+        "source" : "17131",
+        "target" : "17132",
+        "StartArrow" : "Line",
+        "EndArrow" : "mim-stimulation",
+        "ConnectorType" : "Straight",
+        "LineThickness" : 1.0,
+        "LineStyle" : "Solid",
+        "Color" : "#00cc00",
+        "SUID" : 17263,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17226",
+        "source" : "17131",
+        "target" : "17134",
+        "StartArrow" : "Line",
+        "EndArrow" : "mim-stimulation",
+        "ConnectorType" : "Straight",
+        "LineThickness" : 1.0,
+        "LineStyle" : "Solid",
+        "Color" : "#00cc00",
+        "SUID" : 17226,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17219",
+        "source" : "17131",
+        "target" : "17129",
+        "StartArrow" : "Line",
+        "EndArrow" : "mim-stimulation",
+        "ConnectorType" : "Straight",
+        "LineThickness" : 1.0,
+        "LineStyle" : "Solid",
+        "Color" : "#00cc00",
+        "SUID" : 17219,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17211",
+        "source" : "17130",
+        "target" : "17129",
+        "StartArrow" : "Line",
+        "EndArrow" : "mim-stimulation",
+        "ConnectorType" : "Straight",
+        "LineThickness" : 1.0,
+        "LineStyle" : "Solid",
+        "Color" : "#00cc00",
+        "SUID" : 17211,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17272",
+        "source" : "17129",
+        "target" : "17136",
+        "StartArrow" : "Line",
+        "EndArrow" : "Arrow",
+        "ConnectorType" : "Straight",
+        "LineThickness" : 1.0,
+        "LineStyle" : "Solid",
+        "Color" : "#000000",
+        "SUID" : 17272,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17268",
+        "source" : "17129",
+        "target" : "17137",
+        "StartArrow" : "Line",
+        "EndArrow" : "Arrow",
+        "ConnectorType" : "Straight",
+        "LineThickness" : 1.0,
+        "LineStyle" : "Solid",
+        "Color" : "#000000",
+        "SUID" : 17268,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17252",
+        "source" : "17129",
+        "target" : "17127",
+        "StartArrow" : "Line",
+        "EndArrow" : "mim-stimulation",
+        "ConnectorType" : "Straight",
+        "LineThickness" : 1.0,
+        "LineStyle" : "Solid",
+        "Color" : "#00cc00",
+        "SUID" : 17252,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17205",
+        "source" : "17129",
+        "target" : "17115",
+        "StartArrow" : "Line",
+        "EndArrow" : "mim-stimulation",
+        "ConnectorType" : "Straight",
+        "LineThickness" : 1.0,
+        "LineStyle" : "Solid",
+        "Color" : "#00cc00",
+        "SUID" : 17205,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17249",
+        "source" : "17128",
+        "target" : "17129",
+        "StartArrow" : "Line",
+        "EndArrow" : "mim-inhibition",
+        "ConnectorType" : "Straight",
+        "LineThickness" : 1.0,
+        "LineStyle" : "Solid",
+        "Color" : "#cc0000",
+        "SUID" : 17249,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17250",
+        "source" : "17127",
+        "target" : "17129",
+        "StartArrow" : "Line",
+        "EndArrow" : "mim-inhibition",
+        "ConnectorType" : "Straight",
+        "LineThickness" : 1.0,
+        "LineStyle" : "Solid",
+        "Color" : "#cc0000",
+        "SUID" : 17250,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17231",
+        "source" : "17126",
+        "target" : "17127",
+        "StartArrow" : "Line",
+        "EndArrow" : "mim-inhibition",
+        "ConnectorType" : "Straight",
+        "LineThickness" : 1.0,
+        "LineStyle" : "Solid",
+        "Color" : "#cc0000",
+        "SUID" : 17231,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17257",
+        "source" : "17124",
+        "target" : "17125",
+        "StartArrow" : "Line",
+        "EndArrow" : "Arrow",
+        "ConnectorType" : "Straight",
+        "LineThickness" : 1.0,
+        "LineStyle" : "Solid",
+        "Color" : "#000000",
+        "SUID" : 17257,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17275",
+        "source" : "17115",
+        "target" : "17173",
+        "StartArrow" : "Line",
+        "EndArrow" : "mim-inhibition",
+        "ConnectorType" : "Straight",
+        "LineThickness" : 1.0,
+        "LineStyle" : "Solid",
+        "Color" : "#cc0000",
+        "SUID" : 17275,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17262",
+        "source" : "17115",
+        "target" : "17167",
+        "StartArrow" : "Line",
+        "EndArrow" : "mim-inhibition",
+        "ConnectorType" : "Straight",
+        "LineThickness" : 1.0,
+        "LineStyle" : "Solid",
+        "Color" : "#cc0000",
+        "SUID" : 17262,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17220",
+        "source" : "17113",
+        "target" : "17163",
+        "StartArrow" : "Line",
+        "EndArrow" : "mim-inhibition",
+        "ConnectorType" : "Straight",
+        "LineThickness" : 1.0,
+        "LineStyle" : "Solid",
+        "Color" : "#cc0000",
+        "SUID" : 17220,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17230",
+        "source" : "17087",
+        "target" : "17159",
+        "StartArrow" : "Line",
+        "EndArrow" : "mim-inhibition",
+        "ConnectorType" : "Straight",
+        "LineThickness" : 1.0,
+        "LineStyle" : "Solid",
+        "Color" : "#cc0000",
+        "SUID" : 17230,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17212",
+        "source" : "17086",
+        "target" : "17174",
+        "StartArrow" : "Line",
+        "EndArrow" : "mim-inhibition",
+        "ConnectorType" : "Straight",
+        "LineThickness" : 1.0,
+        "LineStyle" : "Solid",
+        "Color" : "#cc0000",
+        "SUID" : 17212,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17218",
+        "source" : "17077",
+        "target" : "17057",
+        "StartArrow" : "Line",
+        "EndArrow" : "mim-stimulation",
+        "ConnectorType" : "Straight",
+        "LineThickness" : 1.0,
+        "LineStyle" : "Solid",
+        "Color" : "#00cc00",
+        "SUID" : 17218,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17208",
+        "source" : "17076",
+        "target" : "17175",
+        "StartArrow" : "Line",
+        "EndArrow" : "mim-stimulation",
+        "ConnectorType" : "Straight",
+        "LineThickness" : 1.0,
+        "LineStyle" : "Solid",
+        "Color" : "#00cc00",
+        "SUID" : 17208,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17222",
+        "source" : "17075",
+        "target" : "17048",
+        "StartArrow" : "Line",
+        "EndArrow" : "mim-inhibition",
+        "ConnectorType" : "Straight",
+        "LineThickness" : 1.0,
+        "LineStyle" : "Solid",
+        "Color" : "#cc0000",
+        "SUID" : 17222,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17214",
+        "source" : "17075",
+        "target" : "17175",
+        "StartArrow" : "Line",
+        "EndArrow" : "mim-stimulation",
+        "ConnectorType" : "Straight",
+        "LineThickness" : 1.0,
+        "LineStyle" : "Solid",
+        "Color" : "#00cc00",
+        "SUID" : 17214,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17258",
+        "source" : "17066",
+        "target" : "17159",
+        "StartArrow" : "Line",
+        "EndArrow" : "mim-stimulation",
+        "ConnectorType" : "Straight",
+        "LineThickness" : 1.0,
+        "LineStyle" : "Solid",
+        "Color" : "#00cc00",
+        "SUID" : 17258,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17246",
+        "source" : "17066",
+        "target" : "17076",
+        "StartArrow" : "Line",
+        "EndArrow" : "mim-stimulation",
+        "ConnectorType" : "Straight",
+        "LineThickness" : 1.0,
+        "LineStyle" : "Solid",
+        "Color" : "#00cc00",
+        "SUID" : 17246,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17269",
+        "source" : "17064",
+        "target" : "17082",
+        "StartArrow" : "Line",
+        "EndArrow" : "TBar",
+        "ConnectorType" : "Straight",
+        "LineThickness" : 1.0,
+        "LineStyle" : "Solid",
+        "Color" : "#000000",
+        "SUID" : 17269,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17267",
+        "source" : "17064",
+        "target" : "17083",
+        "StartArrow" : "Line",
+        "EndArrow" : "TBar",
+        "ConnectorType" : "Straight",
+        "LineThickness" : 1.0,
+        "LineStyle" : "Solid",
+        "Color" : "#000000",
+        "SUID" : 17267,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17238",
+        "source" : "17064",
+        "target" : "17044",
+        "StartArrow" : "Line",
+        "EndArrow" : "TBar",
+        "ConnectorType" : "Straight",
+        "LineThickness" : 1.0,
+        "LineStyle" : "Solid",
+        "Color" : "#000000",
+        "SUID" : 17238,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17206",
+        "source" : "17064",
+        "target" : "17048",
+        "StartArrow" : "Line",
+        "EndArrow" : "TBar",
+        "ConnectorType" : "Straight",
+        "LineThickness" : 1.0,
+        "LineStyle" : "Solid",
+        "Color" : "#000000",
+        "SUID" : 17206,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17247",
+        "source" : "17061",
+        "target" : "17065",
+        "StartArrow" : "Line",
+        "EndArrow" : "mim-inhibition",
+        "ConnectorType" : "Straight",
+        "LineThickness" : 1.0,
+        "LineStyle" : "Solid",
+        "Color" : "#cc0000",
+        "SUID" : 17247,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17232",
+        "source" : "17059",
+        "target" : "17175",
+        "StartArrow" : "Line",
+        "EndArrow" : "mim-stimulation",
+        "ConnectorType" : "Straight",
+        "LineThickness" : 1.0,
+        "LineStyle" : "Solid",
+        "Color" : "#00cc00",
+        "SUID" : 17232,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17266",
+        "source" : "17058",
+        "target" : "17135",
+        "StartArrow" : "Line",
+        "EndArrow" : "TBar",
+        "ConnectorType" : "Straight",
+        "LineThickness" : 1.0,
+        "LineStyle" : "Solid",
+        "Color" : "#000000",
+        "SUID" : 17266,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17243",
+        "source" : "17058",
+        "target" : "17073",
+        "StartArrow" : "Line",
+        "EndArrow" : "TBar",
+        "ConnectorType" : "Straight",
+        "LineThickness" : 1.0,
+        "LineStyle" : "Solid",
+        "Color" : "#000000",
+        "SUID" : 17243,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17227",
+        "source" : "17057",
+        "target" : "17056",
+        "StartArrow" : "Line",
+        "EndArrow" : "mim-stimulation",
+        "ConnectorType" : "Straight",
+        "LineThickness" : 1.0,
+        "LineStyle" : "Solid",
+        "Color" : "#00cc00",
+        "SUID" : 17227,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17229",
+        "source" : "17056",
+        "target" : "17165",
+        "StartArrow" : "Line",
+        "EndArrow" : "mim-stimulation",
+        "ConnectorType" : "Straight",
+        "LineThickness" : 1.0,
+        "LineStyle" : "Solid",
+        "Color" : "#00cc00",
+        "SUID" : 17229,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17240",
+        "source" : "17054",
+        "target" : "17051",
+        "StartArrow" : "Line",
+        "EndArrow" : "Arrow",
+        "ConnectorType" : "Straight",
+        "LineThickness" : 1.0,
+        "LineStyle" : "Solid",
+        "Color" : "#000000",
+        "SUID" : 17240,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17273",
+        "source" : "17049",
+        "target" : "17166",
+        "StartArrow" : "Line",
+        "EndArrow" : "mim-stimulation",
+        "ConnectorType" : "Straight",
+        "LineThickness" : 1.0,
+        "LineStyle" : "Solid",
+        "Color" : "#00cc00",
+        "SUID" : 17273,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17236",
+        "source" : "17048",
+        "target" : "17057",
+        "StartArrow" : "Line",
+        "EndArrow" : "mim-inhibition",
+        "ConnectorType" : "Straight",
+        "LineThickness" : 1.0,
+        "LineStyle" : "Solid",
+        "Color" : "#cc0000",
+        "SUID" : 17236,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17255",
+        "source" : "17047",
+        "target" : "17124",
+        "StartArrow" : "Line",
+        "EndArrow" : "mim-inhibition",
+        "ConnectorType" : "Straight",
+        "LineThickness" : 1.0,
+        "LineStyle" : "Solid",
+        "Color" : "#cc0000",
+        "SUID" : 17255,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17251",
+        "source" : "17044",
+        "target" : "17161",
+        "StartArrow" : "Line",
+        "EndArrow" : "mim-inhibition",
+        "ConnectorType" : "Straight",
+        "LineThickness" : 1.0,
+        "LineStyle" : "Solid",
+        "Color" : "#cc0000",
+        "SUID" : 17251,
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "17221",
+        "source" : "17044",
+        "target" : "17086",
+        "StartArrow" : "Line",
+        "EndArrow" : "mim-inhibition",
+        "ConnectorType" : "Straight",
+        "LineThickness" : 1.0,
+        "LineStyle" : "Solid",
+        "Color" : "#cc0000",
+        "SUID" : 17221,
+        "selected" : false
+      },
+      "selected" : false
+    } ]
+  }
+}

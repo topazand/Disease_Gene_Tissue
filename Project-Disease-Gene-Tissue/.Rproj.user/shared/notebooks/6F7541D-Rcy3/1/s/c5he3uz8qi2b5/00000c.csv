@@ -1,0 +1,8 @@
+"0","RCy3::commandsRun('wikipathways import-as-pathway id=WP179') 
+"
+"2","RCy3::commandsGET, HTTP Error Code: 404
+ url=http://localhost:1234/v1/commands/wikipathways/import-as-pathway?id=WP179"
+"2","
+"
+"2","Error in commandsGET(cmd.string, base.url) : 
+"

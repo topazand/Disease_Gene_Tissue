@@ -1,0 +1,2 @@
+"0","gene_t<-gene_t%>%"
+"0","  mutate(Name=gsub(""\\..*"","""",Name))"

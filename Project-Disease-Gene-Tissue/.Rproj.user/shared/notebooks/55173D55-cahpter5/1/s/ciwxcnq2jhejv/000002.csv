@@ -1,0 +1,4 @@
+"0","```r
+ggplot(data=diamonds,mapping = aes(x=price,y=carat))+
+  geom_boxplot(mapping = aes(group=cut_width(price,1000)))
+```"

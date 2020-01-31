@@ -1,0 +1,1 @@
+{"frames":[{"character_number":0,"end_character_number":0,"end_line_number":0,"file":"","func":"draw_disease_pathway(\"C0019209\", \"WP2261\")","line_number":0}],"message":"Error in str_split(re$geneID, \"/\")[[1]] : subscript out of bounds\n"}

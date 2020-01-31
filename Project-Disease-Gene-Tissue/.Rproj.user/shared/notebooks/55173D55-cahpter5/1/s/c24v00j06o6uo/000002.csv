@@ -1,0 +1,10 @@
+"0","```r
+ggplot(data = diamonds,mapping = aes(x=carat))+
+  geom_freqpoly()
+first<-diamonds%>%
+  filter(between(carat,0,median(carat)))
+print(median(first$carat))
+first<-diamonds%>%
+  filter(between(carat,median(carat),max(carat)))
+print(median(first$carat))
+```"

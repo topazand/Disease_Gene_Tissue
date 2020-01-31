@@ -1,0 +1,15 @@
+"0","```r
+test<-tribble(
+  ~a ,~b, ~c,
+  \"a\", 1, 4,
+  \"b\", 4, 5,
+  \"a\", 2, 8,
+  \"b\", NA, 9,
+  \"a\", 6, NA,
+  \"b\", 6, 11
+)
+ggplot(data=test)+
+  geom_bar(mapping=aes(x=a))
+ggplot(data=test)+
+  geom_histogram(mapping=aes(x=b))
+```"

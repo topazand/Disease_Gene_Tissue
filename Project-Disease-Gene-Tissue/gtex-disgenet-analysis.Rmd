@@ -1,0 +1,110 @@
+---
+title: "Gtex-Disgenet analysis"
+output: 
+  html_document: 
+    keep_md: yes
+    toc: yes
+    toc_float: yes
+---
+
+This document shows how the correlation between tissue and disease is revealed by analyzing a gtex dataset *Median gene-level TPM by tissue*() and *Curated gene-disease associations* from Disgenet().
+
+# Preparation
+Load packages
+```{r message=F}
+library(tidyverse)
+library(Biostrings)
+library(pathview)
+```
+ggplot2: for plotting
+tidyverse:
+  -ggplot2:data visualization
+  -dplyr:data manipulation
+  -tidyr:data tidying
+  -stringr:for strings
+Biostrings:for mapping gene names
+
+First, the two datasets are download from [Gtex](https://storage.googleapis.com/gtex_analysis_v8/rna_seq_data/GTEx_Analysis_2017-06-05_v8_RNASeQCv1.1.9_gene_median_tpm.gct.gz) and [Disgenet](https://www.disgenet.org/static/disgenet_ap1/files/downloads/curated_gene_disease_associations.tsv.gz) websites, and then imported to the environment.(gene_t is converted to csv)
+
+```{r}
+gene_t<-read_csv("Gene_T.csv")
+gene_d<-read_tsv("Gene_C.tsv")
+```
+
+# tidying
+It is observed that in gene_d and gene_t, the same gene name is used sothat there's no need for conversion. However, it's still necessary to see whether each gene in the disease dataset can match to a gene in the tissue dataset.
+
+```{r}
+gene_t<-gene_t%>%
+  mutate(Name=gsub("\\..*","",Name))
+```
+
+```{r}
+nope<-distinct(gene_d,geneSymbol,geneId)%>%
+  mutate(is=geneSymbol %in% gene_t$Description)%>%
+  filter(!is)
+nope
+```
+Among the 9411 distinct genes in the disease dataset, there are 247 genes that aren't in the tissue data. Based on some other observations, there's no other reasons for this, the GTEX data (gene_t) simply doesn't include these genes.
+
+So we can remove them, although this may affect the final result.
+
+```{r}
+gene_dd<-gene_d%>%
+  anti_join(nope,by="geneSymbol")
+```
+
+
+# Analysis
+
+Now we have the disease-gene relationship data and tissue-gene tpm data
+```{r}
+gene_dd
+gene_t
+gene_t%>%
+  dplyr::select(-Name,-Description)%>%rowSums()%>%head()
+```
+
+## Method 1
+
+First, arrange by disease ID
+```{r}
+gene_ddd<-gene_dd%>%
+  arrange(diseaseId)
+disease_name<-(gene_ddd%>%distinct(diseaseId))$diseaseId
+```
+
+create the target dataframe
+```{r}
+gene_disease_tissue<-colnames(gene_t)[3:56]
+all_relation<-data.frame(matrix(ncol = 55, nrow = 10280))
+colnames(all_relation)<-c(list("Disease"),gene_disease_tissue)
+all_relation$Disease=disease_name
+#This is the target datafram
+for(i in 2:55){
+  all_relation[i]=rep(0,10280)
+}
+```
+
+Next step is (quite complicated)... 
+For each disease, there are several genes realted to it,(disgenet data) we sum up the expression level of each of these genes in each tissue to gain the disease-tissue relationship.
+
+```{r}
+gene_ddd
+gene_t
+disease_name
+all_relation
+system.time(
+#for(i in 1:10280){
+  #if(i%%100==0) print(i)
+#  local<-gene_ddd%>%
+#    filter(diseaseId==disease_name[i])
+#  tst<-inner_join(local,gene_t,by=c("geneSymbol"="Description"))
+#})
+```
+
+
+
+
+## Method2
+The total expression level of different genes differ alot.

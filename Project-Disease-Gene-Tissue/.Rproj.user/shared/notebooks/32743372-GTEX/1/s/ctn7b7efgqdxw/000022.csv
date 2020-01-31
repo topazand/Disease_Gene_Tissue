@@ -1,0 +1,6 @@
+"0","#percentage"
+"0","gene_tt<-gene_t"
+"0","gene_tt$sm<-rowSums(gene_tt[,gene_disease_tissue])"
+"0","for(i in 3:56){"
+"0","  gene_tt[,i]=(gene_tt[,i]/gene_tt[,57])[[1]]"
+"0","}"

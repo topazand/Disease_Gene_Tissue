@@ -1,0 +1,10 @@
+"0","```r
+diamonds%>%
+  ggplot()+
+  geom_point(mapping=aes(x=carat,y=price,color=cut),alpha=0.2)
+diamonds %>%
+  mutate(carat=cut_width(carat,0.5))%>%
+  ggplot()+
+  geom_boxplot(aes(cut,price))+
+  facet_wrap(~ carat)
+```"

@@ -1,0 +1,414 @@
+---
+title: "Gtex Disgenet analysis"
+output: 
+  html_document: 
+    keep_md: yes
+    toc: yes
+    toc_float: yes
+---
+
+This document shows how the correlation between tissue and disease is revealed by analyzing a gtex dataset *Median gene-level TPM by tissue*() and *Curated gene-disease associations* from Disgenet().
+
+# Preparation
+Load packages
+```{r message=F}
+library(tidyverse)
+library(Biostrings)
+library(pathview)
+library(purrr)
+library(clusterProfiler)
+library(plyr)
+```
+ggplot2: for plotting
+tidyverse:
+  -ggplot2:data visualization
+  -dplyr:data manipulation
+  -tidyr:data tidying
+  -stringr:for strings
+Biostrings:for mapping gene names
+
+First, the two datasets are download from [Gtex](https://storage.googleapis.com/gtex_analysis_v8/rna_seq_data/GTEx_Analysis_2017-06-05_v8_RNASeQCv1.1.9_gene_median_tpm.gct.gz) and [Disgenet](https://www.disgenet.org/static/disgenet_ap1/files/downloads/curated_gene_disease_associations.tsv.gz) websites, and then imported to the environment.(gene_t is converted to csv)
+
+```{r}
+gene_t<-read_csv("Gene_T.csv")
+gene_d<-read_tsv("Gene_C.tsv")
+```
+
+# tidying
+It is observed that in gene_d and gene_t, the same gene name is used sothat there's no need for conversion. However, it's still necessary to see whether each gene in the disease dataset can match to a gene in the tissue dataset.
+
+```{r}
+gene_t<-gene_t%>%
+  mutate(Name=gsub("\\..*","",Name))
+```
+
+```{r}
+nope<-distinct(gene_d,geneSymbol,geneId)%>%
+  mutate(is=geneSymbol %in% gene_t$Description)%>%
+  filter(!is)
+nope
+```
+Among the 9411 distinct genes in the disease dataset, there are 247 genes that aren't in the tissue data. Based on some other observations, there's no other reasons for this, the GTEX data (gene_t) simply doesn't include these genes.
+
+So we can remove them, although this may affect the final result.
+
+```{r}
+gene_dd<-gene_d%>%
+  anti_join(nope,by="geneSymbol")
+```
+
+
+# Analysis
+
+Now we have the disease-gene relationship data and tissue-gene tpm data
+```{r}
+gene_dd
+gene_t
+gene_t%>%
+  dplyr::select(-Name,-Description)%>%rowSums()%>%head()
+```
+
+## Method 1
+
+First, arrange by disease ID
+```{r}
+gene_ddd<-gene_dd%>%
+  arrange(diseaseId)
+disease_name<-(gene_ddd%>%distinct(diseaseId))$diseaseId
+```
+
+create the target dataframe
+```{r}
+gene_disease_tissue<-colnames(gene_t)[3:56]
+all_relation<-data.frame(matrix(ncol = 55, nrow = 10280))
+colnames(all_relation)<-c(list("Disease"),gene_disease_tissue)
+all_relation$Disease=disease_name
+#This is the target datafram
+for(i in 2:55){
+  all_relation[i]=rep(0,10280)
+}
+```
+
+Next step is (quite complicated)... 
+For each disease, there are several genes realted to it,(disgenet data) we sum up the expression level of each of these genes in each tissue to gain the disease-tissue relationship.
+
+```{r}
+# gene_ddd
+# gene_t
+# head(disease_name)
+# all_relation
+# for(i in 1:10280){
+#   if(i%%100==0) print(i)
+#   local<-gene_ddd%>%
+#     filter(diseaseId==disease_name[i])
+#   tst<-inner_join(local,gene_t,by=c("geneSymbol"="Description"))
+# }
+findsum<-function(co){
+  if(typeof(co)=="integer" | typeof(co)=="double"){sum(co,na.rm=T)} else {NA}
+}
+system.time(
+for(i in 1:10280){
+  if(i%%100==0) print(i)
+  local<-gene_ddd%>%
+    filter(diseaseId==disease_name[i])
+  tst<-inner_join(local,gene_t,by=c("geneSymbol"="Description"))
+  if(nrow(tst)==0){
+    next()
+  }
+  sm<-colwise(findsum)(tst)
+  all_relation[i,2:55]<-all_relation[i,2:55]+sm[1,18:71]
+})
+
+
+```
+
+Reload /
+```{r}
+"/" <- function(x,y) ifelse(y==0,0,base:::"/"(x,y))#reload operator
+```
+
+```{r}
+#percentage
+gene_tt<-gene_t
+gene_tt$sm<-rowSums(gene_tt[,gene_disease_tissue])
+for(i in 3:56){
+  gene_tt[,i]=(gene_tt[,i]/gene_tt[,57])[[1]]
+}
+```
+
+```{r}
+#parallel
+library(parallel)
+rotate <- function(x) t(apply(x, 2, rev))
+wow<-function(i){
+  if(i%%100==0) print(i)
+local<-gene_ddd%>%
+    filter(diseaseId==disease_name[i])
+  tst<-inner_join(local,gene_t,by=c("geneSymbol"="Description"))
+  if(nrow(tst)==0){
+    next()
+  }
+  sm<-colwise(findsum)(tst)
+  #all_relation[i,2:55]<-all_relation[i,2:55]+sm[1,18:71]}
+  print(i)
+  as.numeric(as.vector(sm[1,18:71]))}
+cl <- makeCluster(7)
+clusterExport(cl,c("gene_ddd","disease_name","gene_t","all_relation","findsum"))
+clusterEvalQ(cl, library(tidyverse))
+clusterEvalQ(cl, library(plyr))
+system.time(
+  res<-parLapply(cl, 1:10280,wow)
+)
+result<-data.frame(matrix(ncol = 55,nrow=0))
+colnames(result)<-c("disease",gene_disease_tissue)
+for(i in 1:10280){
+  result[i,1]<-disease_name[i]
+  result[i,2:55]<-res[[i]]
+}
+```
+
+```{r}
+gene_d
+all_relation<-result
+showrel<-function(dn,nmsl){
+  local<-all_relation%>%
+    filter(disease==dn)
+  res<-data.frame("tissue"=gene_disease_tissue,"val"=as.numeric(as.vector(local[1,2:55])))
+  ggplot(res%>%top_n(10,val))+
+    geom_col(mapping = aes(x=reorder(tissue,val),y=val))+
+    coord_flip()+
+    labs(x="Diseases",y="Correlation",title = nmsl)
+}
+gene_d
+showrel("C0036341","nmsl")
+```
+
+### just analyze
+
+```{r}
+qaq<-gene_ddd%>%
+  filter(diseaseId=="D003865")
+red<-data.frame(matrix(ncol=54,nrow=0))
+colnames(red)<-gene_disease_tissue
+red[1,1:54]<-rep(0,54)
+for(i in 1:7){
+  tmp<-gene_t%>%filter(Description==qaq$geneSymbol[i])
+  red[1,1:54]<-red[1,1:54]+tmp[1,3:56]
+}
+qqaq<-left_join(qaq,gene_t,by=c("geneSymbol"="Description"))
+```
+
+
+
+## Method2
+The total expression level of different genes differ alot.
+
+# Pathway and Gene
+```{r}
+library(rWikiPathways)
+```
+
+```{r}
+wp.hs.gmt <- rWikiPathways::downloadPathwayArchive(organism="Homo sapiens", format = "gmt")
+gene_ddd
+```
+
+## Pathway Analysis
+
+### Over-representation Analysis
+
+```{r}
+library(rWikiPathways)
+wp.hs.gmt <- rWikiPathways::downloadPathwayArchive(organism="Homo sapiens", format = "gmt")
+#wp2gene <- clusterProfiler::read.gmt(wp.hs.gmt)
+#I just read
+pw<-read_file(wp.hs.gmt)
+#pw<-str_remove_all(pw,"\\r\\n")
+pw<-str_split(pw,"[\\t|%]")[[1]]
+ind=1
+stp=1
+ls<-vector()
+output<-data.frame("name"=c(),"version"=c(),"id"=c(),"species"=c(),"link"=c(),"data"=c())
+output[1,"name"]=pw[1]
+output[1,"data"]=list(list("nmsl"))
+for(i in 2:length(pw)){
+  ro<-pw[i]
+  if(stp==1){
+    output[ind,"version"]<-ro
+  }
+  if(stp==2){
+    output[ind,"id"]<-ro
+  }
+  if(stp==3){
+    output[ind,"species"]<-ro
+  }
+  if(stp==4){
+    output[ind,"link"]<-ro
+  }
+  if(stp==5){
+    stp<-stp-1
+    if(str_detect(ro,"\\r\\n")){
+      print("det")
+    roo<-str_split(ro,"\\r\\n")
+    ls<-append(ls,as.double(roo[[1]][[1]]))
+    output[ind,"data"]<-list(list(ls))
+    ls<-vector()
+    ind<-ind+1
+    output[ind,"name"]<-roo[[1]][[2]]
+    stp<-0
+    } else {
+    ls<-append(ls,as.double(ro))
+    #print(ls)
+    #print(ro)
+  }
+  }
+  
+  stp<-stp+1
+}
+pw_data<-output%>%
+  filter(!is.na(id))
+
+```
+
+```{r}
+gene_d
+#binom.test:there is p probability that an intersection exists.
+#and ofcourse 1-p probability that it doesn't.
+#Inter is taken as success,null hypo is that p=p and alt is p!=p
+disease_gene_list<-(gene_d%>%
+    distinct(geneId))$geneId
+findcorr<-function(pI,dI){
+  #dI="C0007102"
+  #pI="WP4216"
+  pwrow<-pw_data%>%
+    filter(id==pI)
+  drow<-(gene_d%>%
+    filter(diseaseId==dI))$geneId
+  p<-length(drow)/length(disease_gene_list)
+  pg<-pwrow$data[[1]]
+  succ=0
+  for(i in 1:length(pg)){
+    if(pg[i] %in% up.genes.entrez[[2]]){
+      succ<-succ+1
+    }
+  }
+  
+  binom.test(succ,length(pg),p=p)
+  
+}
+find_p<-function(dis){
+for(i in 1:559){
+  pw_data[i,"bc"]<-(findcorr((pw_data$id)[i],dis))$p.value
+}
+pw_data%>%
+  dplyr::select(bc,name)%>%
+  arrange(bc)
+}
+plt<-function(fra){
+  ggplot(fra%>%filter(bc<1e-7))+
+  geom_col(mapping=aes(reorder(name,-bc),bc))+
+  coord_flip()
+}
+gene_d%>%
+  distinct(diseaseName,diseaseId)
+gene_d%>%
+  filter(str_detect(diseaseName,"sui"))
+gene_d%>%
+  filter(geneId==4713 | geneId==4724)
+
+```
+LINK TO WIKIPEDIA
+```{r}
+#plt(find_p("C0036341"))
+plt(find_p("C0149925")%>%filter(bc<1e-7)%>%head(10))
+```
+### Other analysis
+
+```{r}
+wp2gene <- clusterProfiler::read.gmt(wp.hs.gmt)
+wp2gene <- wp2gene %>% separate(ont, c("name","version","wpid","org"), "%")
+wpid2gene <- wp2gene %>% dplyr::select(wpid,gene) #TERM2GENE
+wpid2name <- wp2gene %>% dplyr::select(wpid,name) #TERM2NAME
+wpid2gene
+wpid2name
+
+```
+
+```{r}
+world<-unique(gene_d$geneId)
+some<-gene_d%>%
+  filter(diseaseId=="C0007103")
+#some$geneId
+ewp.up <- clusterProfiler::enricher(
+        as.character(some$geneId),
+        universe = as.character(world),
+        pAdjustMethod = "fdr",
+        pvalueCutoff = 0.1, #p.adjust cutoff; relaxed for demo purposes
+        TERM2GENE = wpid2gene,
+        TERM2NAME = wpid2name)
+head(ewp.up,100)
+data.frame(ewp.up)%>%filter(ID=="WP1984")
+tmp<-wpid2gene%>%filter(wpid=="WP4216")
+length(intersect(tmp$gene,as.character(world)))
+length(intersect(wpid2gene$gene,as.character(world)))
+#Gene ratio is the ratio between the number of genes that appear in both the specific pathway genes and the specific disease genes / the number of genes in both all pathway genes and the specific disease genss.
+#BackgroundRatio:intersection of specific pathway genes and all disease genes/intersection of all pathway genes and all disease genes -- num of genes of this pathway(independent of the disease)
+# For each obs, the null hyp is that bgratio is as usual
+```
+
+```{r}
+get_disease<-function(id){
+  (gene_d%>%
+    distinct(diseaseId,diseaseName)%>%
+    filter(diseaseId==id))$diseaseName
+}
+# pw_bar<-function(tbl){
+#   tbl<-enc_analysis("C0007103")
+#   nw<-tbl%>%
+#     filter(pvalue<1e-5)%>%
+#     head(10)
+#   ggplot(nw)+
+#     geom_col(aes(ID,pvalue))+
+#     coord_flip()
+# }
+pw_print<-function(dis){
+  tbl<-enc_analysis(dis)
+  nw<-tbl%>%
+    filter(pvalue<1e-5)%>%
+    head(10)
+  rs<-paste0('These were the biological pathways\nrelated to disease ',get_disease(dis),'(',dis,')','\nby doing Over-representation Analysis\n(ORA):\n')
+  for(i in 1:nrow(nw)){
+    rs<-paste0(rs,"ID of pathway:",(nw$ID)[i],"\n","Description:",
+        (nw$Description)[i],"\n","P value:",(nw$pvalue)[i],"\n\n")
+  }
+  rs
+}
+```
+
+```{r}
+gene_d
+enc_analysis<-function(disname){
+  world<-unique(gene_d$geneId)
+some<-gene_d%>%
+  filter(diseaseId==disname)
+#some$geneId
+data.frame(clusterProfiler::enricher(
+        as.character(some$geneId),
+        universe = as.character(world),
+        pAdjustMethod = "fdr",
+        pvalueCutoff = 0.1,
+        TERM2GENE = wpid2gene,
+        TERM2NAME = wpid2name))
+
+}
+enc_analysis("C0030567")
+
+pw_print("C0007103")
+gene_d%>%
+  filter(str_detect(diseaseName,"Parkinson "))
+draw_disease_pathway("C0030567","WP408")
+# wpid2name%>%
+#   filter(str_detect(name,"atal"))
+```
+
+

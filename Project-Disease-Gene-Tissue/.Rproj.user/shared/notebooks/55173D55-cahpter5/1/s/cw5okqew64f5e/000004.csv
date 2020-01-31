@@ -1,0 +1,6 @@
+"0","```r
+diamonds %>%
+  filter(price>1450 & price<1550)%>%
+  ggplot()+
+  geom_histogram(mapping=aes(x=price),binwidth = 1)
+```"

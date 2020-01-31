@@ -1,0 +1,114 @@
+"0","```r
+library(ggplot2)
+library(tidyverse)
+```"
+"1","[30m-- [1mAttaching packages[22m --------------------------------------- tidyverse 1.2.1 --[39m
+[30m[32mv[30m [34mtibble [30m 2.1.3     [32mv[30m [34mpurrr  [30m 0.3.2
+[32mv[30m [34mtidyr  [30m 0.8.3     [32mv[30m [34mdplyr  [30m 0.8.3
+[32mv[30m [34mreadr  [30m 1.3.1     [32mv[30m [34mstringr[30m 1.4.0
+[32mv[30m [34mtibble [30m 2.1.3     [32mv[30m [34mforcats[30m 0.4.0[39m
+[30m-- [1mConflicts[22m ------------------------------------------ tidyverse_conflicts() --
+[31mx[30m [34mdplyr[30m::[32mfilter()[30m masks [34mstats[30m::filter()
+[31mx[30m [34mdplyr[30m::[32mlag()[30m    masks [34mstats[30m::lag()[39m
+"
+"0","```r
+library(dplyr)
+library(stringr)
+library(pathview)
+```"
+"1","Loading required package: org.Hs.eg.db
+Loading required package: AnnotationDbi
+Loading required package: stats4
+Loading required package: BiocGenerics
+Loading required package: parallel
+
+Attaching package: ‘BiocGenerics’
+
+The following objects are masked from ‘package:parallel’:
+
+    clusterApply, clusterApplyLB,
+    clusterCall, clusterEvalQ, clusterExport,
+    clusterMap, parApply, parCapply,
+    parLapply, parLapplyLB, parRapply,
+    parSapply, parSapplyLB
+
+The following objects are masked from ‘package:dplyr’:
+
+    combine, intersect, setdiff, union
+
+The following objects are masked from ‘package:stats’:
+
+    IQR, mad, sd, var, xtabs
+
+The following objects are masked from ‘package:base’:
+
+    anyDuplicated, append, as.data.frame,
+    basename, cbind, colnames, dirname,
+    do.call, duplicated, eval, evalq, Filter,
+    Find, get, grep, grepl, intersect,
+    is.unsorted, lapply, Map, mapply, match,
+    mget, order, paste, pmax, pmax.int, pmin,
+    pmin.int, Position, rank, rbind, Reduce,
+    rownames, sapply, setdiff, sort, table,
+    tapply, union, unique, unsplit, which,
+    which.max, which.min
+
+Loading required package: Biobase
+Welcome to Bioconductor
+
+    Vignettes contain introductory material;
+    view with 'browseVignettes()'. To cite
+    Bioconductor, see 'citation(\"Biobase\")',
+    and for packages 'citation(\"pkgname\")'.
+
+Loading required package: IRanges
+Loading required package: S4Vectors
+
+Attaching package: ‘S4Vectors’
+
+The following objects are masked from ‘package:dplyr’:
+
+    first, rename
+
+The following object is masked from ‘package:tidyr’:
+
+    expand
+
+The following object is masked from ‘package:base’:
+
+    expand.grid
+
+
+Attaching package: ‘IRanges’
+
+The following objects are masked from ‘package:dplyr’:
+
+    collapse, desc, slice
+
+The following object is masked from ‘package:purrr’:
+
+    reduce
+
+The following object is masked from ‘package:grDevices’:
+
+    windows
+
+
+Attaching package: ‘AnnotationDbi’
+
+The following object is masked from ‘package:dplyr’:
+
+    select
+
+
+##############################################################################
+Pathview is an open source software package distributed under GNU General
+Public License version 3 (GPLv3). Details of GPLv3 is available at
+http://www.gnu.org/licenses/gpl-3.0.html. Particullary, users are required to
+formally cite the original Pathview paper (not just mention it) in publications
+or products. For details, do citation(\"pathview\") within R.
+
+The pathview downloads and uses KEGG data. Non-academic uses may require a KEGG
+license agreement (details at http://www.kegg.jp/kegg/legal.html).
+##############################################################################
+"

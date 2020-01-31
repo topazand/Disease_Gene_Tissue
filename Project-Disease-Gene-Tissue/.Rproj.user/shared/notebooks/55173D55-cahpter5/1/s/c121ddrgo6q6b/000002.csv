@@ -1,0 +1,5 @@
+"0","```r
+diamonds2<-diamonds%>%
+  mutate(ifelse(y<3|y>20,NA,y))
+diamonds2
+```"

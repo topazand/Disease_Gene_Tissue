@@ -1,0 +1,5 @@
+"0","```r
+library(lvplot)
+ggplot(data=diamonds,mapping=aes(cut,price,fill=..LV..))+
+  geom_lv()
+```"

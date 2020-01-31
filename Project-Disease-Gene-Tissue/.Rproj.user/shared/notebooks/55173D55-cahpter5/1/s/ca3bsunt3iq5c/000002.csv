@@ -1,0 +1,6 @@
+"0","```r
+diamonds %>%
+  ggplot()+
+  geom_histogram(mapping=aes(x=price))+
+  coord_cartesian(xlim = c(5500,6500))
+```"

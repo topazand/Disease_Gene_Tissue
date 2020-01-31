@@ -1,0 +1,29 @@
+"0","```r
+install.packages(\"ggbeeswarm\")
+```"
+"1","WARNING: Rtools is required to build R packages but is not currently installed. Please download and install the appropriate version of Rtools before proceeding:
+
+https://cran.rstudio.com/bin/windows/Rtools/
+Installing package into ã¤¼ã¸±C:/Users/86156/Documents/R/win-library/3.6ã¤¼ã¸²
+(as ã¤¼ã¸±libã¤¼ã¸² is unspecified)
+also installing the dependencies ã¤¼ã¸±beeswarmã¤¼ã¸², ã¤¼ã¸±viporã¤¼ã¸²
+
+trying URL 'https://cran.rstudio.com/bin/windows/contrib/3.6/beeswarm_0.2.3.zip'
+Content type 'application/zip' length 66531 bytes (64 KB)
+downloaded 64 KB
+
+trying URL 'https://cran.rstudio.com/bin/windows/contrib/3.6/vipor_0.4.5.zip'
+Content type 'application/zip' length 4409881 bytes (4.2 MB)
+downloaded 4.2 MB
+
+trying URL 'https://cran.rstudio.com/bin/windows/contrib/3.6/ggbeeswarm_0.6.0.zip'
+Content type 'application/zip' length 1528088 bytes (1.5 MB)
+downloaded 1.5 MB
+"
+"1","package â€˜beeswarmâ€™ successfully unpacked and MD5 sums checked
+package â€˜viporâ€™ successfully unpacked and MD5 sums checked
+package â€˜ggbeeswarmâ€™ successfully unpacked and MD5 sums checked
+
+The downloaded binary packages are in
+	C:\Users\86156\AppData\Local\Temp\Rtmp6JmTlW\downloaded_packages
+"

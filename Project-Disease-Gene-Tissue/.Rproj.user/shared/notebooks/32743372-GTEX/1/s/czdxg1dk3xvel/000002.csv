@@ -1,0 +1,2 @@
+"0","gene_dd<-gene_d%>%"
+"0","  anti_join(nope,by=""geneSymbol"")"

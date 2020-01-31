@@ -1,0 +1,7 @@
+"0","```r
+ggplot(data=mpg,mapping=aes(x=cty,y=hwy))+
+  geom_count()+
+```"
+"1","Error: Incomplete expression: ggplot(data=mpg,mapping=aes(x=cty,y=hwy))+
+  geom_count()+
+"

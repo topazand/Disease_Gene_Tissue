@@ -1,0 +1,7 @@
+"0","```r
+diamonds%>%
+  group_by(cut)%>%
+  summarise(
+    avg=mean(carat)
+  )
+```"

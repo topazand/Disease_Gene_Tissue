@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1578452806222.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "1CD2C284",
+    "lastKnownWriteTime" : 1578776369,
+    "last_content_update" : 1578776369776,
+    "path" : "D:/R_for_data_science/Project-Disease-Gene-Tissue/Rcy3.Rmd",
+    "project_path" : "Rcy3.Rmd",
+    "properties" : {
+        "cursorPosition" : "42,49",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

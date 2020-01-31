@@ -1,0 +1,4 @@
+"0","```r
+ggplot(data=diamonds) +
+  geom_freqpoly(aes(price,colour = cut))
+```"

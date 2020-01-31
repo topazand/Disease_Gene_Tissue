@@ -1,0 +1,6 @@
+"0","  (wpid2name%>%
+    filter(wpid==id))$name[1]
+"
+"2","Error in wpid == id : 
+  comparison (1) is possible only for atomic and list types
+"

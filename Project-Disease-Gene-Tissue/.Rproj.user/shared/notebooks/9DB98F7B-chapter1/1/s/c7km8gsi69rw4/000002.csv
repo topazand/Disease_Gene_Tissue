@@ -1,0 +1,8 @@
+"0","```r
+library(ggplot2)
+ggplot(data=diamonds) +
+  geom_bar(
+    mapping=aes(x=cut,fill=clarity),
+    position=\"dodge\"
+    )
+```"

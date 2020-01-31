@@ -1,0 +1,6 @@
+"0","gene_group<-gene_d%>%"
+"0","  filter(diseaseType==""group"")"
+"0","gene_phenotype<-gene_d%>%"
+"0","  filter(diseaseType==""phenotype"")"
+"0","gene_disease<-gene_d%>%"
+"0","  filter(diseaseType==""disease"")"

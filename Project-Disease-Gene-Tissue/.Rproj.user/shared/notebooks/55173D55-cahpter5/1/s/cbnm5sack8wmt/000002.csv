@@ -1,0 +1,4 @@
+"0","```r
+ggplot(data=diamonds)+
+  geom_count(mapping = aes(x=cut,y=color))
+```"

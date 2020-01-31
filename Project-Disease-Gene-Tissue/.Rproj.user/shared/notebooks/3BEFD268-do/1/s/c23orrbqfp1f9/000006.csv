@@ -1,0 +1,36 @@
+"0","library(clusterProfiler)"
+"2","package ‘clusterProfiler’ was built under R version 3.6.2"
+"2","clusterProfiler v3.14.2  For help: https://guangchuangyu.github.io/software/clusterProfiler
+
+If you use clusterProfiler in published research, please cite:
+Guangchuang Yu, Li-Gen Wang, Yanyan Han, Qing-Yu He. clusterProfiler: an R package for comparing biological themes among gene clusters. OMICS: A Journal of Integrative Biology. 2012, 16(5):284-287.
+"
+"2","
+Attaching package: ‘clusterProfiler’
+
+"
+"2","The following object is masked from ‘package:purrr’:
+
+    simplify
+
+"
+"0","library(rWikiPathways)"
+"0","library(DOSE)"
+"2","DOSE v3.12.0  For help: https://guangchuangyu.github.io/software/DOSE
+
+If you use DOSE in published research, please cite:
+Guangchuang Yu, Li-Gen Wang, Guang-Rong Yan, Qing-Yu He. DOSE: an R/Bioconductor package for Disease Ontology Semantic and Enrichment analysis. Bioinformatics 2015, 31(4):608-609
+
+"
+"0","library(RCy3)"
+"2","
+Attaching package: ‘RCy3’
+
+"
+"2","The following objects are masked from ‘package:cyjShiny’:
+
+    clearSelection, getSelectedNodes, selectFirstNeighbors, selectNodes
+
+"
+"0","library(tidyverse)"
+"0",""

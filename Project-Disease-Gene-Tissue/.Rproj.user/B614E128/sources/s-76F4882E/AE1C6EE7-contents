@@ -1,0 +1,90 @@
+---
+title: "rcy3"
+output: html_document
+---
+
+# Some Rcy3
+```{r}
+library(clusterProfiler)
+library(rWikiPathways)
+library(DOSE)
+library(RCy3)
+library(tidyverse)
+
+```
+
+```{r}
+cytoscapePing()
+
+```
+
+
+```{r}
+wp.hs.gmt <- rWikiPathways::downloadPathwayArchive(organism="Homo sapiens", format = "gmt")
+
+```
+```{r}
+up.genes <- lung.expr[lung.expr$log2FC > 1 & lung.expr$adj.P.Value < 0.05, 1] 
+dn.genes <- lung.expr[lung.expr$log2FC < -1 & lung.expr$adj.P.Value < 0.05, 1]
+bkgd.genes <- lung.expr[,1]
+up.genes.entrez <- clusterProfiler::bitr(up.genes,fromType = "ENSEMBL",toType = "ENTREZID",OrgDb = org.Hs.eg.db)
+dn.genes.entrez <- bitr(dn.genes,fromType = "ENSEMBL",toType = "ENTREZID",OrgDb = org.Hs.eg.db)
+bkgd.genes.entrez <- bitr(bkgd.genes,fromType = "ENSEMBL",toType = "ENTREZID",OrgDb = org.Hs.eg.db)
+```
+
+```{r}
+wp2gene <- clusterProfiler::read.gmt(wp.hs.gmt)
+wp2gene <- wp2gene %>% separate(ont, c("name","version","wpid","org"), "%")
+wpid2gene <- wp2gene %>% dplyr::select(wpid,gene) #TERM2GENE
+wpid2name <- wp2gene %>% dplyr::select(wpid,name) #TERM2NAME
+wpid2gene
+wpid2name
+ewp.up <- clusterProfiler::enricher(
+        up.genes.entrez[[2]],
+        universe = bkgd.genes.entrez[[2]],
+        pAdjustMethod = "fdr",
+        pvalueCutoff = 0.1, #p.adjust cutoff; relaxed for demo purposes
+        TERM2GENE = wpid2gene,
+        TERM2NAME = wpid2name)
+ewp.up <- DOSE::setReadable(ewp.up, org.Hs.eg.db, keyType = "ENTREZID")
+head(ewp.up)
+tmp<-wpid2gene%>%filter(wpid=="WP4216")
+gene_d%>%
+        filter(str_detect(diseaseName,"lung"))
+```
+
+```{r}
+barplot(ewp.up, showCategory = 20)
+dotplot(ewp.up, showCategory = 20)
+emapplot(ewp.up, showCategory = 20)
+```
+```{r}
+draw_disease_pathway<-function(dis,pw){
+  re<-enc_analysis(dis)%>%
+    filter(ID==pw)
+  all_gene<-str_split(re$geneID,"/")[[1]]
+  new_gene<-as.character(mapIds(org.Hs.eg.db,all_gene,'SYMBOL','ENTREZID'))
+  RCy3::commandsRun(paste0('wikipathways import-as-pathway id=',pw))
+  toggleGraphicsDetails()
+  selectNodes(new_gene,by.col = "name")
+
+}
+```
+
+
+```{r}
+gene_d%>%
+  filter(diseaseSemanticType=="Finding")
+SemanticType<-unique(gene_d$diseaseSemanticType)
+SemanticType[length(SemanticType)+1]="All"
+f<-gene_d$diseaseClass
+type_list<-sort(unique(unlist(str_split(f,";"))))
+```
+
+```{r}
+all_dis<-gene_d%>%
+  dplyr::select(diseaseName,diseaseId,diseaseType,diseaseClass,diseaseSemanticType)
+gene_d%>%filter(str_detect(diseaseClass,c("C06","C10")))
+
+```
+

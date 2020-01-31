@@ -1,0 +1,72 @@
+"0","dI=""C0007102""
+  pI=""WP4216""
+  pwrow<-pw_data%>%
+    filter(id==pI)
+  drow<-(gene_d%>%
+    filter(diseaseId==dI))$geneId
+  p<-length(drow)/length(disease_gene_list)
+  pg<-pwrow$data[[1]]
+  succ=0
+  for(i in 1:length(pg)){
+    if(pg[i] %in% up.genes.entrez[[2]]){
+      succ<-succ+1
+    }
+  }
+  
+  binom.test(succ,length(pg),p=p)
+"
+"1","
+"
+"1","	Exact binomial test"
+"1","
+"
+"1","
+"
+"1","data:  "
+"1",""
+"1","succ and length(pg)"
+"1",""
+"1","
+"
+"1","number of successes = 2, number of trials = 74,"
+"1","
+"
+"1","p-value = 0.3304"
+"1","
+"
+"1","alternative hypothesis: "
+"1","true "
+"1",""
+"1","probability of success"
+"1",""
+"1"," is "
+"1",""
+"1","not equal to"
+"1",""
+"1"," "
+"1",""
+"1","0.01593541"
+"1",""
+"1","
+"
+"1","95"
+"1",""
+"1"," percent confidence interval:
+"
+"1",""
+"1"," "
+"1",""
+"1","0.003290023 0.094244339"
+"1",""
+"1","
+"
+"1","sample estimates:
+"
+"1","probability of success "
+"1","
+"
+"1","            0.02702703 "
+"1","
+"
+"1","
+"

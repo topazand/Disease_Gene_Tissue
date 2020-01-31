@@ -1,0 +1,31 @@
+"0","gene_t<-read_csv(""Gene_T.csv"")"
+"2","Parsed with column specification:
+cols(
+  .default = col_double(),
+  Name = [31mcol_character()[39m,
+  Description = [31mcol_character()[39m
+)
+"
+"2","See spec(...) for full column specifications.
+"
+"0","gene_d<-read_tsv(""Gene_C.tsv"")"
+"2","Parsed with column specification:
+cols(
+  geneId = [32mcol_double()[39m,
+  geneSymbol = [31mcol_character()[39m,
+  DSI = [32mcol_double()[39m,
+  DPI = [32mcol_double()[39m,
+  diseaseId = [31mcol_character()[39m,
+  diseaseName = [31mcol_character()[39m,
+  diseaseType = [31mcol_character()[39m,
+  diseaseClass = [31mcol_character()[39m,
+  diseaseSemanticType = [31mcol_character()[39m,
+  score = [32mcol_double()[39m,
+  EI = [32mcol_double()[39m,
+  YearInitial = [32mcol_double()[39m,
+  YearFinal = [32mcol_double()[39m,
+  NofPmids = [32mcol_double()[39m,
+  NofSnps = [32mcol_double()[39m,
+  source = [31mcol_character()[39m
+)
+"

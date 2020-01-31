@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1578595531467.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "52418583",
+    "lastKnownWriteTime" : 1578778234,
+    "last_content_update" : 1578778234669,
+    "path" : "D:/R_for_data_science/Project-Disease-Gene-Tissue/some_shiny_app/app.R",
+    "project_path" : "some_shiny_app/app.R",
+    "properties" : {
+        "cursorPosition" : "206,32",
+        "scrollLine" : "201"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 10,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

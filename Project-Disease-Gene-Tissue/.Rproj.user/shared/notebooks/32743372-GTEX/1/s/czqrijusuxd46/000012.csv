@@ -1,0 +1,6 @@
+"0","#plt(find_p(""C0036341""))
+plt(find_p(""C0149925"")%>%filter(bc<1e-7)%>%head(10))
+"
+"2","Error in plt(find_p(""C0149925"") %>% filter(bc < 1e-07) %>% head(10)) : 
+  could not find function ""plt""
+"

@@ -1,0 +1,10 @@
+"0","wp.hs.gmt <- rWikiPathways::downloadPathwayArchive(organism=""Homo sapiens"", format = ""gmt"")
+"
+"2","trying URL 'http://data.wikipathways.org/current/gmt/wikipathways-20191210-gmt-Homo_sapiens.gmt'
+"
+"2","Content type ''"
+"2"," length 201818 bytes (197 KB)
+"
+"2","downloaded 197 KB
+
+"

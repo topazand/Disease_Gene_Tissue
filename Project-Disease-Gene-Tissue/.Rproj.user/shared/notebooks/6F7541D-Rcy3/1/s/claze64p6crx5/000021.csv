@@ -1,0 +1,4 @@
+"0","draw_disease_pathway(""C0019209"",""WP2261"")
+"
+"2","Error in str_split(re$geneID, ""/"")[[1]] : subscript out of bounds
+"

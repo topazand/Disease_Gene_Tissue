@@ -1,0 +1,84 @@
+"0","system.time(
+  res<-parLapply(cl, 1:10280,wow)
+)
+"
+"2","Warning in .Internal(gc(verbose, reset, full)) :"
+"2","
+ "
+"2"," closing unused connection 16 (<-LAPTOP-N2LPIRET:11346)
+"
+"2","Warning in .Internal(gc(verbose, reset, full)) :"
+"2","
+ "
+"2"," closing unused connection 15 (<-LAPTOP-N2LPIRET:11346)
+"
+"2","Warning in .Internal(gc(verbose, reset, full)) :"
+"2","
+ "
+"2"," closing unused connection 14 (<-LAPTOP-N2LPIRET:11346)
+"
+"2","Warning in .Internal(gc(verbose, reset, full)) :"
+"2","
+ "
+"2"," closing unused connection 13 (<-LAPTOP-N2LPIRET:11346)
+"
+"2","Warning in .Internal(gc(verbose, reset, full)) :"
+"2","
+ "
+"2"," closing unused connection 12 (<-LAPTOP-N2LPIRET:11346)
+"
+"2","Warning in .Internal(gc(verbose, reset, full)) :"
+"2","
+ "
+"2"," closing unused connection 11 (<-LAPTOP-N2LPIRET:11346)
+"
+"2","Warning in .Internal(gc(verbose, reset, full)) :"
+"2","
+ "
+"2"," closing unused connection 10 (<-LAPTOP-N2LPIRET:11346)
+"
+"2","Warning in .Internal(gc(verbose, reset, full)) :"
+"2","
+ "
+"2"," closing unused connection 9 (<-LAPTOP-N2LPIRET:11346)
+"
+"2","Warning in .Internal(gc(verbose, reset, full)) :"
+"2","
+ "
+"2"," closing unused connection 8 (<-LAPTOP-N2LPIRET:11346)
+"
+"2","Warning in .Internal(gc(verbose, reset, full)) :"
+"2","
+ "
+"2"," closing unused connection 7 (<-LAPTOP-N2LPIRET:11346)
+"
+"2","Warning in .Internal(gc(verbose, reset, full)) :"
+"2","
+ "
+"2"," closing unused connection 6 (<-LAPTOP-N2LPIRET:11346)
+"
+"2","Warning in .Internal(gc(verbose, reset, full)) :"
+"2","
+ "
+"2"," closing unused connection 5 (<-LAPTOP-N2LPIRET:11346)
+"
+"2","Warning in .Internal(gc(verbose, reset, full)) :"
+"2","
+ "
+"2"," closing unused connection 4 (<-LAPTOP-N2LPIRET:11346)
+"
+"2","Warning in .Internal(gc(verbose, reset, full)) :"
+"2","
+ "
+"2"," closing unused connection 3 (<-LAPTOP-N2LPIRET:11346)
+"
+"1","   user "
+"1"," system "
+"1","elapsed "
+"1","
+"
+"1","   0.05 "
+"1","   0.01 "
+"1","  85.42 "
+"1","
+"

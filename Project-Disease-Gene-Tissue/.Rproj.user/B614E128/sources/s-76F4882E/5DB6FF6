@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1578622409864.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "5DB6FF6",
+    "lastKnownWriteTime" : 1578638895,
+    "last_content_update" : 1578638895677,
+    "path" : "D:/R_for_data_science/Project-Disease-Gene-Tissue/rcytest/app.R",
+    "project_path" : "rcytest/app.R",
+    "properties" : {
+        "cursorPosition" : "10,18",
+        "scrollLine" : "0"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 7,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

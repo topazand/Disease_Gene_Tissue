@@ -1,0 +1,8 @@
+"0","library(tidyverse)"
+"0","library(Biostrings)"
+"0","library(pathview)"
+"0","library(purrr)"
+"0","library(clusterProfiler)"
+"2","package ‘clusterProfiler’ was built under R version 3.6.2"
+"0","library(plyr)"
+"2","package ‘plyr’ was built under R version 3.6.2"

@@ -1,0 +1,7 @@
+"0","for(i in 2:55){
+  gene_disease_disease_relation[i]=rep(0,15922)
+}
+"
+"2","Error in `[<-.data.frame`(`*tmp*`, i, value = c(0, 0, 0, 0, 0, 0, 0, 0,  : 
+  replacement has 15922 rows, data has 8758
+"

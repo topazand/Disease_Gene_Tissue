@@ -1,0 +1,6 @@
+"0","qaq<-gene_ddd%>%
+  filter(diseaseId==""D003865"")
+"
+"2","Error in gene_ddd %>% filter(diseaseId == ""D003865"") : 
+  could not find function ""%>%""
+"

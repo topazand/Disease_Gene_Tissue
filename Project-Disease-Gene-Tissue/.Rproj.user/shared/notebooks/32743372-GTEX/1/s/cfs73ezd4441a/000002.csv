@@ -1,0 +1,3 @@
+"0","gene_ddd<-gene_dd%>%"
+"0","  arrange(diseaseId)"
+"0","disease_name<-(gene_ddd%>%distinct(diseaseId))$diseaseId"

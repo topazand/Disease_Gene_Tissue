@@ -1,0 +1,4 @@
+"0","```r
+library(ggplot2)
+ggplot(data=mpg)
+```"

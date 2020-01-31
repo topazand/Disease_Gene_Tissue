@@ -1,0 +1,94 @@
+---
+title: "Cyto"
+output: html_document
+---
+
+```{r}
+library(tidyverse)
+library(BiocManager)
+library(RCy3)
+library(rWikiPathways)
+library(RColorBrewer)
+library(pathview)
+```
+
+```{r}
+cytoscapePing()
+```
+
+```{r}
+RCy3::commandsRun('wikipathways import-as-pathway id=WP4153') 
+toggleGraphicsDetails()
+```
+
+```{r}
+wpid2gene%>%filter(wpid=="WP179")
+```
+
+
+```{r}
+setNodeColorMapping("log2FC", data.values, node.colors, default.color = "#FFFFFF", style.name = "WikiPathways")
+```
+```{r}
+selectNodes(c("RB1","CDC25A"),by.col = "name")
+```
+```{r}
+gene_d
+enc_analysis("C0019209")
+draw_disease_pathway("C0019209","WP2261")
+draw_disease_pathway<-function(dis,pw){
+  re<-enc_analysis(dis)%>%
+    filter(ID==pw)
+  all_gene<-str_split(re$geneID,"/")[[1]]
+  new_gene<-as.character(mapIds(org.Hs.eg.db,all_gene,'SYMBOL','ENTREZID'))
+  RCy3::commandsRun(paste0('wikipathways import-as-pathway id=',pw))
+  toggleGraphicsDetails()
+  RCy3::selectNodes(new_gene,by.col = "name")
+
+}
+```
+
+```{r}
+exportVisualStyles(
+  filename = "D:\\R_for_data_science\\Project-Disease-Gene-Tissue\\files\\wp4153",
+  type = "JSON"
+)
+exportNetwork(
+  filename = "D:\\R_for_data_science\\Project-Disease-Gene-Tissue\\files\\at",
+  type= "cyjs"
+)
+exportImage(
+  filename = "D:\\R_for_data_science\\Project-Disease-Gene-Tissue\\files\\test",
+  type="SVG",
+  resolution = 600,
+  
+)
+draw_disease_pathway()
+```
+```{r}
+library(RCyjs)
+```
+
+
+```{r}
+library(httr)
+library(XML)
+library(xml2)
+get_des<-function(wp){
+
+s<-httr::content(GET(paste0("https://www.wikipathways.org/index.php/Pathway:",wp)))
+write_html(s,file="w.html")
+page<-read_html("w.html")
+this<-xml_child(page,2)%>%xml_child(1)%>%xml_child(1)%>%xml_child(1)%>%xml_child(3)%>%xml_child(18)
+xml_text(xml_contents(this)[1])
+}
+```
+
+```{r}
+get_pn<-function(id){
+  (wpid2name%>%
+    filter(wpid==id))$name[1]
+}
+```
+
+

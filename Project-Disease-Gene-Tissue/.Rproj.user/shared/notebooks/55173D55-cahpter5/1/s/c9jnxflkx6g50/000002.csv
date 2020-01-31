@@ -1,0 +1,4 @@
+"0","library(ggplot2)"
+"0","ggplot(data=diamonds)+"
+"0","  geom_point(mapping = aes(x=x,y=y))+"
+"0","  coord_cartesian(xlim=c(4,11),ylim=c(4,11))"

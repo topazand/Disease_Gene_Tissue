@@ -1,0 +1,6 @@
+"0","```r
+diamonds%>%
+  count(carat==0.99)
+diamonds%>%
+  count(carat==1.00)
+```"

@@ -1,0 +1,334 @@
+[ {
+  "format_version" : "1.0",
+  "generated_by" : "cytoscape-3.7.2",
+  "target_cytoscapejs_version" : "~2.1",
+  "title" : "WikiPathways",
+  "style" : [ {
+    "selector" : "node",
+    "css" : {
+      "border-opacity" : 1.0,
+      "text-valign" : "center",
+      "text-halign" : "center",
+      "text-opacity" : 1.0,
+      "background-opacity" : 1.0,
+      "shape" : "ellipse",
+      "background-color" : "data(FillColor)",
+      "content" : "data(name)",
+      "border-width" : "data(BorderThickness)",
+      "height" : "data(Height)",
+      "font-size" : null,
+      "border-color" : "data(Color)",
+      "width" : "data(Width)",
+      "font-family" : null,
+      "color" : "data(Color)"
+    }
+  }, {
+    "selector" : "node[Shape = 'Nucleus']",
+    "css" : {
+      "shape" : "nucleus"
+    }
+  }, {
+    "selector" : "node[Shape = 'Hexagon']",
+    "css" : {
+      "shape" : "hexagon"
+    }
+  }, {
+    "selector" : "node[Shape = 'Ellipse']",
+    "css" : {
+      "shape" : "ellipse"
+    }
+  }, {
+    "selector" : "node[Shape = 'Brace']",
+    "css" : {
+      "shape" : "brace"
+    }
+  }, {
+    "selector" : "node[Shape = 'RoundRectangle']",
+    "css" : {
+      "shape" : "roundrectangle"
+    }
+  }, {
+    "selector" : "node[Shape = 'Rectangle']",
+    "css" : {
+      "shape" : "rectangle"
+    }
+  }, {
+    "selector" : "node[Shape = 'Triangle']",
+    "css" : {
+      "shape" : "triangle"
+    }
+  }, {
+    "selector" : "node[Shape = 'Octagon']",
+    "css" : {
+      "shape" : "octagon"
+    }
+  }, {
+    "selector" : "node[Shape = 'Sarcoplasmic Reticulum']",
+    "css" : {
+      "shape" : "sarcoplasmicreticulum"
+    }
+  }, {
+    "selector" : "node[Shape = 'Endoplasmic Reticulum']",
+    "css" : {
+      "shape" : "endoplasmicreticulum"
+    }
+  }, {
+    "selector" : "node[Shape = 'Golgi Apparatus']",
+    "css" : {
+      "shape" : "golgiapparatus"
+    }
+  }, {
+    "selector" : "node[Shape = 'Mitochondria']",
+    "css" : {
+      "shape" : "mitochondria"
+    }
+  }, {
+    "selector" : "node[Shape = 'Arc']",
+    "css" : {
+      "shape" : "arc"
+    }
+  }, {
+    "selector" : "node[Shape = 'Oval']",
+    "css" : {
+      "shape" : "ellipse"
+    }
+  }, {
+    "selector" : "node[Shape = 'Pentagon']",
+    "css" : {
+      "shape" : "hexagon"
+    }
+  }, {
+    "selector" : "node[Shape = 'Organelle']",
+    "css" : {
+      "shape" : "roundrectangle"
+    }
+  }, {
+    "selector" : "node[Shape = 'Cell']",
+    "css" : {
+      "shape" : "cell"
+    }
+  }, {
+    "selector" : "node[Shape = 'RoundedRectangle']",
+    "css" : {
+      "shape" : "roundrectangle"
+    }
+  }, {
+    "selector" : "node[Transparent = 'true']",
+    "css" : {
+      "background-opacity" : 0.0
+    }
+  }, {
+    "selector" : "node[Transparent = 'false']",
+    "css" : {
+      "background-opacity" : 1.0
+    }
+  }, {
+    "selector" : "node:selected",
+    "css" : {
+      "background-color" : "rgb(255,255,0)"
+    }
+  }, {
+    "selector" : "edge",
+    "css" : {
+      "content" : "",
+      "source-arrow-shape" : "none",
+      "target-arrow-shape" : "none",
+      "color" : "rgb(0,0,0)",
+      "source-arrow-color" : "rgb(64,64,64)",
+      "font-size" : 10,
+      "text-opacity" : 1.0,
+      "target-arrow-color" : "rgb(64,64,64)",
+      "line-color" : "rgb(64,64,64)",
+      "font-family" : "Dialog.plain",
+      "font-weight" : "normal",
+      "opacity" : 1.0,
+      "line-style" : "solid",
+      "width" : "data(LineThickness)"
+    }
+  }, {
+    "selector" : "edge[StartArrow = 'Arrow']",
+    "css" : {
+      "source-arrow-shape" : "triangle"
+    }
+  }, {
+    "selector" : "edge[StartArrow = 'mim-branching-right']",
+    "css" : {
+      "source-arrow-shape" : "triangle"
+    }
+  }, {
+    "selector" : "edge[StartArrow = 'mim-covalent-bond']",
+    "css" : {
+      "source-arrow-shape" : "triangle"
+    }
+  }, {
+    "selector" : "edge[StartArrow = 'mim-branching-left']",
+    "css" : {
+      "source-arrow-shape" : "triangle"
+    }
+  }, {
+    "selector" : "edge[StartArrow = 'mim-transcription-translation']",
+    "css" : {
+      "source-arrow-shape" : "triangle"
+    }
+  }, {
+    "selector" : "edge[StartArrow = 'mim-binding']",
+    "css" : {
+      "source-arrow-shape" : "triangle"
+    }
+  }, {
+    "selector" : "edge[StartArrow = 'Line']",
+    "css" : {
+      "source-arrow-shape" : "none"
+    }
+  }, {
+    "selector" : "edge[StartArrow = 'mim-cleavage']",
+    "css" : {
+      "source-arrow-shape" : "diamond"
+    }
+  }, {
+    "selector" : "edge[StartArrow = 'mim-gap']",
+    "css" : {
+      "source-arrow-shape" : "triangle"
+    }
+  }, {
+    "selector" : "edge[StartArrow = 'mim-stimulation']",
+    "css" : {
+      "source-arrow-shape" : "triangle"
+    }
+  }, {
+    "selector" : "edge[StartArrow = 'mim-catalysis']",
+    "css" : {
+      "source-arrow-shape" : "triangle"
+    }
+  }, {
+    "selector" : "edge[StartArrow = 'mim-inhibition']",
+    "css" : {
+      "source-arrow-shape" : "tee"
+    }
+  }, {
+    "selector" : "edge[StartArrow = 'TBar']",
+    "css" : {
+      "source-arrow-shape" : "tee"
+    }
+  }, {
+    "selector" : "edge[StartArrow = 'mim-modification']",
+    "css" : {
+      "source-arrow-shape" : "triangle"
+    }
+  }, {
+    "selector" : "edge[StartArrow = 'mim-necessary-stimulation']",
+    "css" : {
+      "source-arrow-shape" : "triangle"
+    }
+  }, {
+    "selector" : "edge[StartArrow = 'mim-conversion']",
+    "css" : {
+      "source-arrow-shape" : "triangle"
+    }
+  }, {
+    "selector" : "edge[EndArrow = 'Arrow']",
+    "css" : {
+      "target-arrow-shape" : "triangle"
+    }
+  }, {
+    "selector" : "edge[EndArrow = 'mim-branching-right']",
+    "css" : {
+      "target-arrow-shape" : "triangle"
+    }
+  }, {
+    "selector" : "edge[EndArrow = 'mim-covalent-bond']",
+    "css" : {
+      "target-arrow-shape" : "triangle"
+    }
+  }, {
+    "selector" : "edge[EndArrow = 'mim-branching-left']",
+    "css" : {
+      "target-arrow-shape" : "triangle"
+    }
+  }, {
+    "selector" : "edge[EndArrow = 'mim-transcription-translation']",
+    "css" : {
+      "target-arrow-shape" : "triangle"
+    }
+  }, {
+    "selector" : "edge[EndArrow = 'mim-binding']",
+    "css" : {
+      "target-arrow-shape" : "triangle"
+    }
+  }, {
+    "selector" : "edge[EndArrow = 'Line']",
+    "css" : {
+      "target-arrow-shape" : "none"
+    }
+  }, {
+    "selector" : "edge[EndArrow = 'mim-cleavage']",
+    "css" : {
+      "target-arrow-shape" : "diamond"
+    }
+  }, {
+    "selector" : "edge[EndArrow = 'mim-gap']",
+    "css" : {
+      "target-arrow-shape" : "triangle"
+    }
+  }, {
+    "selector" : "edge[EndArrow = 'mim-stimulation']",
+    "css" : {
+      "target-arrow-shape" : "triangle"
+    }
+  }, {
+    "selector" : "edge[EndArrow = 'mim-catalysis']",
+    "css" : {
+      "target-arrow-shape" : "triangle"
+    }
+  }, {
+    "selector" : "edge[EndArrow = 'mim-inhibition']",
+    "css" : {
+      "target-arrow-shape" : "tee"
+    }
+  }, {
+    "selector" : "edge[EndArrow = 'TBar']",
+    "css" : {
+      "target-arrow-shape" : "tee"
+    }
+  }, {
+    "selector" : "edge[EndArrow = 'mim-modification']",
+    "css" : {
+      "target-arrow-shape" : "triangle"
+    }
+  }, {
+    "selector" : "edge[EndArrow = 'mim-necessary-stimulation']",
+    "css" : {
+      "target-arrow-shape" : "triangle"
+    }
+  }, {
+    "selector" : "edge[EndArrow = 'mim-conversion']",
+    "css" : {
+      "target-arrow-shape" : "triangle"
+    }
+  }, {
+    "selector" : "edge[LineStyle = 'Dots']",
+    "css" : {
+      "line-style" : "dotted"
+    }
+  }, {
+    "selector" : "edge[LineStyle = 'Double']",
+    "css" : {
+      "line-style" : "dashed"
+    }
+  }, {
+    "selector" : "edge[LineStyle = 'Solid']",
+    "css" : {
+      "line-style" : "solid"
+    }
+  }, {
+    "selector" : "edge[LineStyle = 'Dashed']",
+    "css" : {
+      "line-style" : "dashed"
+    }
+  }, {
+    "selector" : "edge:selected",
+    "css" : {
+      "line-color" : "rgb(255,0,0)"
+    }
+  } ]
+} ]

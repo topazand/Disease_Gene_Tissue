@@ -1,0 +1,1 @@
+{"frames":[{"character_number":0,"end_character_number":0,"end_line_number":0,"file":"","func":"colnames(gene_ttt)","line_number":0}],"message":"Error in colnames(gene_ttt) : object 'gene_ttt' not found\n"}

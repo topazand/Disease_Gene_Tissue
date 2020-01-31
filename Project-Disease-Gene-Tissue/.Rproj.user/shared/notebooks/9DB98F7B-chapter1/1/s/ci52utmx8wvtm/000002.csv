@@ -1,0 +1,15 @@
+"0","```r
+ggplot(data=diamonds) +
+  geom_bar(
+    mapping=aes(x=cut,fill=clarity),
+    position=\"dodge\",
+    
+    )+
+  coord_flip()
+ggplot(data=diamonds)+
+  geom_bar(
+    width=1,
+    mapping=aes(x=cut,fill=clarity)
+  )+
+  coord_polar()
+```"

@@ -1,0 +1,11 @@
+"0","```r
+#BiocManager::install(\"pathview\")
+#if (!requireNamespace(\"BiocManager\", quietly = TRUE))
+    #install.packages(\"BiocManager\")
+
+#BiocManager::install(\"org.Hs.eg.db\")
+#BiocManager::install(\"pathview\")
+#BiocManager::install(\"BiocGenerics\")
+BiocManager::install(\"Biostrings\")
+#12:54
+```"

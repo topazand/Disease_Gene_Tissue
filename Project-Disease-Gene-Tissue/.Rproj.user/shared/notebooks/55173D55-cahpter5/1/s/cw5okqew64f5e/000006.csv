@@ -1,0 +1,7 @@
+"0","```r
+  #scale_x_continuous(breaks=c(1,1.5,2,2.5,3,3.5,4,4.5,5.5,6.5,7.5,8.5,9.5,5,6,7,8,9,10))
+diamonds %>%
+  filter(price>1450 & price<1460)%>%
+  ggplot()+
+  geom_histogram(mapping=aes(x=price),binwidth = 1)
+```"

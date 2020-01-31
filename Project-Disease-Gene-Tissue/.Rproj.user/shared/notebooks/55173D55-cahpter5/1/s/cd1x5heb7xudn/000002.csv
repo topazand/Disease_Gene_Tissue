@@ -1,0 +1,5 @@
+"0","```r
+ggplot(data=diamonds,mapping =
+aes(x=price,color=cut_width(carat,1)))+
+  geom_freqpoly()
+```"

@@ -1,0 +1,3 @@
+"0","alice_topic_ratio<-alice_topic_ratio%>%arrange(-ratio)"
+"2","Error in eval(lhs, parent, parent) : object 'alice_topic_ratio' not found
+"

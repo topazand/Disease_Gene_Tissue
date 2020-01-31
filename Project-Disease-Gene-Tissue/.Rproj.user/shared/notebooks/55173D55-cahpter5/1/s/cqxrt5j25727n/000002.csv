@@ -1,0 +1,12 @@
+"0","```r
+library(ggstance)
+nycflights13::flights%>%
+  mutate(
+    cancel=is.na(dep_time),
+    sched_hour=sched_dep_time %/% 100,
+    sched_min=sched_dep_time %/% 100,
+    sched_dep_time=sched_hour+sched_min/60
+  )%>%
+  ggplot(mapping=aes(cancel,sched_dep_time))+
+  geom_boxploth()
+```"

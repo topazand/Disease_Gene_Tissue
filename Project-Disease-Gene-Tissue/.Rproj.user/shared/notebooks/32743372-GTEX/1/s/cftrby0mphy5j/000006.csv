@@ -1,0 +1,4 @@
+"0","nope<-distinct(gene_d,geneSymbol,geneId)%>%"
+"0","  mutate(is=geneSymbol %in% gene_t$Description)%>%"
+"0","  filter(!is)"
+"0","nope"

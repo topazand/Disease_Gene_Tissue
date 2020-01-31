@@ -1,0 +1,8 @@
+"0","gene_disease_tissue<-colnames(gene_t)[3:56]"
+"0","all_relation<-data.frame(matrix(ncol = 55, nrow = 10280))"
+"0","colnames(all_relation)<-c(list(""Disease""),gene_disease_tissue)"
+"0","all_relation$Disease=disease_name"
+"0","#This is the target datafram"
+"0","for(i in 2:55){"
+"0","  all_relation[i]=rep(0,10280)"
+"0","}"

@@ -1,0 +1,11 @@
+"0","```r
+TTT=c(\"a\",\"b\",\"c\")
+ggplot(
+  data=mpg,
+  mapping=aes(x=displ,y=hwy,color=TTT),
+  )+
+  geom_point()+
+  geom_smooth(se=FALSE)
+```"
+"1","Error: Aesthetics must be either length 1 or the same as the data (234): colour
+"

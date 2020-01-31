@@ -1,0 +1,87 @@
+"0","library(tidyverse)"
+"0","library(BiocManager)"
+"2","Bioconductor version 3.10 (BiocManager 1.30.10), ?BiocManager::install for help
+"
+"0","library(RCy3)"
+"0","library(rWikiPathways)"
+"0","library(RColorBrewer)"
+"0","library(pathview)"
+"2","Loading required package: org.Hs.eg.db
+"
+"2","Loading required package: AnnotationDbi
+"
+"2","Loading required package: stats4
+"
+"2","Loading required package: Biobase
+"
+"2","Welcome to Bioconductor
+
+    Vignettes contain introductory material; view with 'browseVignettes()'. To
+    cite Bioconductor, see 'citation(""Biobase"")', and for packages
+    'citation(""pkgname"")'.
+
+"
+"2","Loading required package: IRanges
+"
+"2","Loading required package: S4Vectors
+"
+"2","
+Attaching package: ‘S4Vectors’
+
+"
+"2","The following objects are masked from ‘package:dplyr’:
+
+    first, rename
+
+"
+"2","The following object is masked from ‘package:tidyr’:
+
+    expand
+
+"
+"2","The following object is masked from ‘package:base’:
+
+    expand.grid
+
+"
+"2","
+Attaching package: ‘IRanges’
+
+"
+"2","The following objects are masked from ‘package:dplyr’:
+
+    collapse, desc, slice
+
+"
+"2","The following object is masked from ‘package:purrr’:
+
+    reduce
+
+"
+"2","The following object is masked from ‘package:grDevices’:
+
+    windows
+
+"
+"2","
+Attaching package: ‘AnnotationDbi’
+
+"
+"2","The following object is masked from ‘package:dplyr’:
+
+    select
+
+"
+"2","
+"
+"2","##############################################################################
+Pathview is an open source software package distributed under GNU General
+Public License version 3 (GPLv3). Details of GPLv3 is available at
+http://www.gnu.org/licenses/gpl-3.0.html. Particullary, users are required to
+formally cite the original Pathview paper (not just mention it) in publications
+or products. For details, do citation(""pathview"") within R.
+
+The pathview downloads and uses KEGG data. Non-academic uses may require a KEGG
+license agreement (details at http://www.kegg.jp/kegg/legal.html).
+##############################################################################
+"

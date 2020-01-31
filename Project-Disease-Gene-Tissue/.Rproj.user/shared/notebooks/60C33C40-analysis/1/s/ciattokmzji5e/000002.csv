@@ -1,0 +1,5 @@
+"0","gene_disease_disease_disid<-gene_disease%>%"
+"0","  distinct(diseaseId)#15922"
+"0","gene_disease_disease_tissue<-colnames(gene_ttt)[3:56]#54"
+"2","Error in colnames(gene_ttt) : object 'gene_ttt' not found
+"

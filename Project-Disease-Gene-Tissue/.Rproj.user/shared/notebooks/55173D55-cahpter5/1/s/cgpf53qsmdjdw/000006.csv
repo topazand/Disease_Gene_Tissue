@@ -1,0 +1,6 @@
+"0","```r
+
+ggplot(data=diamonds,aes(price)) +
+  geom_histogram() +
+  facet_wrap(~ cut)
+```"
